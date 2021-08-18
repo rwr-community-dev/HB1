@@ -2,7 +2,7 @@
 #include "metagame.as"
 #include "log.as"
 
-#include "path://media/packages/CB6/scripts"
+#include "path://media/packages/CB7/scripts"
 #include "basic_command_handler.as"
 #include "emp_grenade.as"
 #include "gps_laptop.as"

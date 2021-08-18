@@ -3,9 +3,10 @@
   name="CB7 DEV/TEST PKG"
   description="https://github.com/rwr-community-dev/CB7"
   image="campaign_preview.png"
-  show_in_campaign_menu="0"
-  show_in_campaigns="0"
+  show_in_campaign_menu="1"
+  show_in_campaigns="1"
   show_in_quick_match_mods="1"
+  campaign_entry_script="start_cb_tester_invasion.as"
   quick_match_entry_script="start_cb_tester.as">
 
 	<campaign_options
