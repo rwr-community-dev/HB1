@@ -226,15 +226,15 @@ class Stage {
     // --------------------------------------------
     protected void appendResources(XmlElement@ mapConfig) const {
         { XmlElement e("weapon");
-            e.setStringAttribute("file", "cb_tester_all_weapons.xml"); mapConfig.appendChild(e); }
+            e.setStringAttribute("file", "cb_all_weapons.xml"); mapConfig.appendChild(e); }
         { XmlElement e("projectile");
-            e.setStringAttribute("file", "cb_tester_all_throwables.xml"); mapConfig.appendChild(e); }
+            e.setStringAttribute("file", "cb_all_throwables.xml"); mapConfig.appendChild(e); }
         { XmlElement e("carry_item");
-            e.setStringAttribute("file", "cb_tester_all_carry_items.xml"); mapConfig.appendChild(e); }
+            e.setStringAttribute("file", "cb_all_carry_items.xml"); mapConfig.appendChild(e); }
         { XmlElement e("call");
-            e.setStringAttribute("file", "cb_tester_all_calls.xml"); mapConfig.appendChild(e); }
+            e.setStringAttribute("file", "cb_all_calls.xml"); mapConfig.appendChild(e); }
         { XmlElement e("vehicle");
-            e.setStringAttribute("file", "cb_tester_all_vehicles.xml"); mapConfig.appendChild(e); }
+            e.setStringAttribute("file", "cb_all_vehicles.xml"); mapConfig.appendChild(e); }
         { XmlElement e("achievement");
             e.setStringAttribute("file", "achievements.xml"); mapConfig.appendChild(e); }
 
