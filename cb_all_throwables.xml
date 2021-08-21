@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
-  <projectile file="all_throwables.xml" />
-  <projectile file="experimental_projectiles.xml" />
+  <projectile file="../vanilla/weapons/all_throwables.xml" />
+  <projectile file="../invasion/weapons/experimental_projectiles.xml" />
+
+  <!-- add cb throwables/projectiles below, not in ./weapons/all_throwables.xml -->
+  <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
 </projectiles>

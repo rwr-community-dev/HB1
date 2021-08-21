@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- use the cb_common.resources -->
+  <resources file="../cb_common.resources" />
+
+  <!-- add these experimental calls -->
+  <call key='a10_gun_run.call' />
+	<call key='gunship_run.call' />
+  <!-- do not add cb stuff to this file! -->
+</resources>

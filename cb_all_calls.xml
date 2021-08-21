@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <calls>
-  <call file="all_calls.xml" />
+  <call file="../vanilla/calls/all_calls.xml" />
+  <call file="../invasion/calls/experimental_calls.xml" />
+
+  <!-- add cb calls below, not in ./calls/all_calls.xml -->
+  <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
 </calls>
