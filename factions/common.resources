@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources clear_weapons="1" clear_vehicles="1" clear_calls="1">
 	<!-- use the cb_common.resources -->
-  <resources file="cb_common.resources" />
+  <resource file="cb_common.resources" />
 
   <!-- add these experimental calls -->
   <!-- <call key='a10_gun_run.call' /> -->
