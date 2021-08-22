@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
-  <weapon file="../vanilla/weapons/all_weapons.xml" />
+  <weapon file="../vanilla/weapons/invasion_all_weapons.xml" />
   <weapon file="../invasion/weapons/experimental_weapons.xml" />
 
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->

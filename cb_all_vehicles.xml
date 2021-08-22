@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
-  <vehicle file="../vanilla/vehicles/all_vehicles.xml" />
+  <vehicle file="../vanilla/vehicles/invasion_all_vehicles.xml" />
   <vehicle file="../invasion/vehicles/experimental_vehicles.xml" />
 
   <!-- add cb vehicles below, not in ./vehicles/all_vehicles.xml -->

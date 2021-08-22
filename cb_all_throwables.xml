@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
+  <!-- invasion just loads all_throwables.xml here so we can't used vanilla/weapons/invasion_all_throwables.xml -->
+  <!-- the cause of the crash that occurs if invasion_all_throwables.xml being specified is maybe a loop -->
   <projectile file="../vanilla/weapons/all_throwables.xml" />
   <projectile file="../invasion/weapons/experimental_projectiles.xml" />
 
