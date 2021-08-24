@@ -7,4 +7,11 @@
   <!-- todo: discover how these are added for invasion, vanilla common.resources doesn't allow these calls :/ -->
   <call key='a10_gun_run.call' />
   <call key='gunship_run.call' />
+
+
+                <!--fox test -->
+                       <weapon key='gilboa_c.weapon' />
+                <!--fox test -->
+
+
 </resources>
