@@ -7,22 +7,27 @@
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
 
-                <!--fox test -->
+  <!-- fox test -->
+  <weapon file="shock_paddle.weapon" />
+  <weapon file="g3_3x.weapon" />
+  <weapon file="g3_1x.weapon" />
+  <weapon file="gilboa_c.weapon" />
+  <weapon file="golden_dragunov_svd.weapon" />
+  <weapon file="dp28.weapon" />
+  <weapon file="dp28_s.weapon" />
+  <weapon file="m14k.weapon" />
+  <weapon file="m14k_carry.weapon" />
+  <weapon file="qbz95.weapon" />
+  <weapon file="qbz95_us.weapon" />
+  <weapon file="shovel.weapon" />
 
- 	<weapon file="shock_paddle.weapon" />
- 	<weapon file="taser.weapon" />
- 	<weapon file="g3_3x.weapon" />
- 	<weapon file="g3_1x.weapon" />
- 	<weapon file="gilboa_c.weapon" />
- 	<weapon file="golden_dragunov_svd.weapon" />
- 	<weapon file="dp28.weapon" />
- 	<weapon file="dp28_s.weapon" />
- 	<weapon file="m14k.weapon" />
- 	<weapon file="m14k_carry.weapon" />
- 	<weapon file="qbz95.weapon" />
- 	<weapon file="qbz95_us.weapon" />
- 	<weapon file="shovel.weapon" />
-
-                <!--fox test -->
+  <!-- test -->
+  <!-- hmmm, reloading here doesn't work?! -->
+  <weapon file="taser.weapon" >
+    <commonness value="0.0" in_stock="1" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+  <!-- fox test -->
 
 </weapons>

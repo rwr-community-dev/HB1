@@ -8,11 +8,9 @@
   <!-- add cb throwables/projectiles below, not in ./weapons/all_throwables.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
 
+  <!-- fox test -->
+  <projectile file="m14k_stim.projectile" />
+  <!-- fox test -->
 
-                <!--fox test -->
-
- 	<projectile file="m14k_stim.projectile" />
-
-                <!--fox test -->
 
 </projectiles>

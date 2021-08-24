@@ -8,26 +8,23 @@
   <call key='a10_gun_run.call' />
   <call key='gunship_run.call' />
 
+  <!-- fox test -->
+  <weapon key='shock_paddle.weapon' />
+  <!-- <weapon key='taser.weapon' /> -->
+  <weapon key='g3_3x.weapon' />
+  <weapon key='g3_1x.weapon' />
+  <weapon key='gilboa_c.weapon' />
+  <weapon key='golden_dragunov_svd.weapon' />
+  <weapon key='dp28.weapon' />
+  <weapon key='dp28_s.weapon' />
+  <weapon key='m14k.weapon' />
+  <weapon key='qbz95.weapon' />
+  <weapon key='shovel.weapon' />
 
-                <!--fox test -->
-
-               <weapon key='shock_paddle.weapon' />
-               <weapon key='taser.weapon' />
-               <weapon key='g3_3x.weapon' />
-               <weapon key='g3_1x.weapon' />
-               <weapon key='gilboa_c.weapon' />
-               <weapon key='golden_dragunov_svd.weapon' />
-               <weapon key='dp28.weapon' />
-               <weapon key='dp28_s.weapon' />
-               <weapon key='m14k.weapon' />
-               <weapon key='qbz95.weapon' />
-               <weapon key='shovel.weapon' />
-
-                <!--test only -->
-
-               <weapon key='taser.weapon' />
-
-                <!--fox test -->
+  <!-- test only -->
+  <!-- we re-import here to ensure that the cb changes are loaded -->
+  <weapon key='taser.weapon' enabled="1" />
+  <!-- fox test -->
 
 
 </resources>
