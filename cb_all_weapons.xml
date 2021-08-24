@@ -29,4 +29,6 @@
   <!-- <weapon file="taser.weapon" /> -->
   <!-- fox test -->
 
+  <weapon file="dog.weapon" />
+  <weapon file="dog_heal.weapon" />
 </weapons>
