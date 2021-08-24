@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="qbz95_us.weapon">
+    <tag name="cqb" />
+    <specification
+    retrigger_time="0.18" 
+    accuracy_factor="0.75" 
+    sustained_fire_grow_step="1.3" 
+    sustained_fire_diminish_rate="0.8" 
+    magazine_size="4" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="qbz-95 - underbarrel shotgun" 
+    class="0" 
+    reload_one_at_a_time="0" 
+    sight_range_modifier="1.0" 
+    projectile_speed="85.0" 
+    projectiles_per_shot="4"
+    burst_shots="0.3" />
+
+        	<next_in_chain key="qbz95.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, sg552" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" /> 
+    <sound key="fire" fileref="qbz95_us_shot.wav" pitch_variety="0.0" volume="0.7" />
+    <sound key="cycle" fileref="mossberg500_cycle.wav" />
+    <sound key="reload_one" fileref="mossberg500_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="qbz95.xml" />
+
+    <hud_icon filename="hud_qbz95_us.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    <inventory encumbrance="10.0" price="0" />
+    
+  	<capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />    
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.62" 
+        kill_decay_start_time="0.23" 
+        kill_decay_end_time="0.45" />
+    </projectile>
+   
+    <modifier class="speed" value="-0.08" />    
+</weapon>
+

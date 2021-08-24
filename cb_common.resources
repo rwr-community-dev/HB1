@@ -10,7 +10,23 @@
 
 
                 <!--fox test -->
-                       <weapon key='gilboa_c.weapon' />
+
+               <weapon key='shock_paddle.weapon' />
+               <weapon key='taser.weapon' />
+               <weapon key='g3_3x.weapon' />
+               <weapon key='g3_1x.weapon' />
+               <weapon key='gilboa_c.weapon' />
+               <weapon key='golden_dragunov_svd.weapon' />
+               <weapon key='dp28.weapon' />
+               <weapon key='dp28_s.weapon' />
+               <weapon key='m14k.weapon' />
+               <weapon key='qbz95.weapon' />
+               <weapon key='shovel.weapon' />
+
+                <!--test only -->
+
+               <weapon key='taser.weapon' />
+
                 <!--fox test -->
 
 
