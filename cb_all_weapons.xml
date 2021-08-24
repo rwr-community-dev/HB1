@@ -22,12 +22,11 @@
   <weapon file="shovel.weapon" />
 
   <!-- test -->
-  <!-- hmmm, reloading here doesn't work?! -->
-  <weapon file="taser.weapon" >
-    <commonness value="0.0" in_stock="1" />
-    <capacity source="rank" source_value="0.0" value="0" />
-    <capacity source="rank" source_value="0.2" value="1" />
-  </weapon>
+  <!-- taser is already loaded by weapons/invasion_all_weapons, thus ignored here? -->
+  <!-- because invasion_all_weapons sets taser in_stock="0" -->
+  <!-- we must actually override vanilla invasion_all_weapons to make taser available in armoury -->
+  <!-- thus we don't need to re-ref the file here -->
+  <!-- <weapon file="taser.weapon" /> -->
   <!-- fox test -->
 
 </weapons>

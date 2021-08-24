@@ -22,8 +22,10 @@
   <weapon key='shovel.weapon' />
 
   <!-- test only -->
-  <!-- we re-import here to ensure that the cb changes are loaded -->
-  <weapon key='taser.weapon' enabled="1" />
+  <!-- no need for reimport as taser.weapon is in vanilla_common.resources :) -->
+  <!-- <weapon key='taser.weapon' > -->
+    <!-- <commonness value="0.0" in_stock="1" /> -->
+  <!-- </weapon> -->
   <!-- fox test -->
 
 
