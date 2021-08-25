@@ -20,12 +20,7 @@
   <weapon key='m14k.weapon' />
   <weapon key='qbz95.weapon' />
   <weapon key='shovel.weapon' />
-
-  <!-- test only -->
-  <!-- no need for reimport as taser.weapon is in vanilla_common.resources :) -->
-  <!-- <weapon key='taser.weapon' > -->
-    <!-- <commonness value="0.0" in_stock="1" /> -->
-  <!-- </weapon> -->
+  <weapon key='torch.weapon' />
   <!-- fox test -->
 
 
