@@ -15,4 +15,5 @@
   - adjust the spawn score for inva
 
 # Rebalancing proposals:
-* Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4 so we are only boosting by a third)
+* Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4, so we are only boosting by a third)
+* Modify flame projectile blasts to not affect allies (for consistency with dlc)

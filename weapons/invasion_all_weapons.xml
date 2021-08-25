@@ -496,7 +496,7 @@
   </weapon>
 
 	<weapon file="flamethrower.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.6" value="1" />
   </weapon>
