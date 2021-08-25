@@ -22,6 +22,7 @@
                <weapon key='m14k.weapon' />
                <weapon key='qbz95.weapon' />
                <weapon key='shovel.weapon' />
+               <weapon key='torch.weapon' />
 
                 <!--test only -->
 

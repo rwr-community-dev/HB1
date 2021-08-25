@@ -22,6 +22,7 @@
  	<weapon file="qbz95.weapon" />
  	<weapon file="qbz95_us.weapon" />
  	<weapon file="shovel.weapon" />
+ 	<weapon file="torch.weapon" />
 
                 <!--fox test -->
 
