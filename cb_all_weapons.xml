@@ -7,23 +7,29 @@
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
 
-                <!--fox test -->
+  <!-- fox test -->
+  <weapon file="shock_paddle.weapon" />
+  <weapon file="g3_3x.weapon" />
+  <weapon file="g3_1x.weapon" />
+  <weapon file="gilboa_c.weapon" />
+  <weapon file="golden_dragunov_svd.weapon" />
+  <weapon file="dp28.weapon" />
+  <weapon file="dp28_s.weapon" />
+  <weapon file="m14k.weapon" />
+  <weapon file="m14k_carry.weapon" />
+  <weapon file="qbz95.weapon" />
+  <weapon file="qbz95_us.weapon" />
+  <weapon file="shovel.weapon" />
+  <weapon file="torch.weapon" />
 
- 	<weapon file="shock_paddle.weapon" />
- 	<weapon file="taser.weapon" />
- 	<weapon file="g3_3x.weapon" />
- 	<weapon file="g3_1x.weapon" />
- 	<weapon file="gilboa_c.weapon" />
- 	<weapon file="golden_dragunov_svd.weapon" />
- 	<weapon file="dp28.weapon" />
- 	<weapon file="dp28_s.weapon" />
- 	<weapon file="m14k.weapon" />
- 	<weapon file="m14k_carry.weapon" />
- 	<weapon file="qbz95.weapon" />
- 	<weapon file="qbz95_us.weapon" />
- 	<weapon file="shovel.weapon" />
- 	<weapon file="torch.weapon" />
+  <!-- test -->
+  <!-- taser is already loaded by weapons/invasion_all_weapons, thus ignored here? -->
+  <!-- because invasion_all_weapons sets taser in_stock="0" -->
+  <!-- we must actually override vanilla invasion_all_weapons to make taser available in armoury -->
+  <!-- thus we don't need to re-ref the file here -->
+  <!-- <weapon file="taser.weapon" /> -->
+  <!-- fox test -->
 
-                <!--fox test -->
-
+  <weapon file="dog.weapon" />
+  <weapon file="dog_heal.weapon" />
 </weapons>

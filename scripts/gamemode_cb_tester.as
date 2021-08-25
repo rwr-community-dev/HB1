@@ -14,15 +14,11 @@
 #include "rangefinder.as"
 // #include "spawn_with_dir.as"
 
-
-// --------------------------------------------
 class GameModeCBTester : Metagame {
-    // --------------------------------------------
     GameModeCBTester(const XmlElement@ settings) {
         super(settings.getStringAttribute("log_level"));
     }
 
-    // --------------------------------------------
     void init() {
         Metagame::init();
 
@@ -30,7 +26,15 @@ class GameModeCBTester : Metagame {
         postBeginMatch();
     }
 
-    // --------------------------------------------
+    void preBeginMatch() {
+		_log("preBeginMatch", 1);
+
+		// all trackers are cleared when match is about to begin
+		Metagame::preBeginMatch();
+
+		setupDogs();
+	}
+
     void postBeginMatch() {
         Metagame::postBeginMatch();
 
@@ -78,4 +82,30 @@ class GameModeCBTester : Metagame {
             }
         }
     }
+
+    protected void setupDogs() {
+		{
+			// enable dogs in friendly faction only
+			XmlElement command("command");
+			command.setStringAttribute("class", "faction");
+			command.setIntAttribute("faction_id", 0);
+			command.setStringAttribute("soldier_group_name", "dog");
+			command.setFloatAttribute("spawn_score", 0.5f);
+			getComms().send(command);
+        }
+
+//		for (uint i = 1; i < m_factions.size(); ++i) {
+//			const FactionConfig@ config = m_factions[i].m_config;
+//		{
+//			// disable dogs in enemy factions
+//			// to prevent players to have to kill dogs
+//			XmlElement command("command");
+//			command.setStringAttribute("class", "faction");
+//			command.setIntAttribute("faction_id", i);
+//			command.setStringAttribute("soldier_group_name", "dog");
+//			command.setFloatAttribute("spawn_score", 0.0f);
+//			getComms().send(command);
+//		}
+      }
 }
+

@@ -5,11 +5,9 @@
 
   <!-- add cb carry items below, not in ./items/all_carry_items.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
+  <carry_item file="dog.carry_item" />
 
-                <!--fox test -->
-
+  <!-- fox test -->
 	<carry_item file="gift_box_4.carry_item" />    
-
-                <!--fox test -->
-
+  <!-- fox test -->
 </carry_items>
