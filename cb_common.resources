@@ -10,7 +10,6 @@
 
   <!-- fox test -->
   <weapon key='shock_paddle.weapon' />
-  <!-- <weapon key='taser.weapon' /> -->
   <weapon key='g3_3x.weapon' />
   <weapon key='g3_1x.weapon' />
   <weapon key='gilboa_c.weapon' />
@@ -19,6 +18,7 @@
   <weapon key='dp28_s.weapon' />
   <weapon key='m14k.weapon' />
   <weapon key='qbz95.weapon' />
+  <weapon key='qbz95_us.weapon' />
   <weapon key='shovel.weapon' />
   <weapon key='torch.weapon' />
   <!-- fox test -->

@@ -12,6 +12,7 @@
   <projectile file="m14k_stim.projectile" />
   <projectile file="torch.projectile" />
   <projectile file="propane.projectile" />
+  <projectile file="pumpkin.projectile" />
   <!-- fox test -->
 
 </projectiles>
