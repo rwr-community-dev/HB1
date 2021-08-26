@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="aegis.weapon" name="aegis" on_ground_up="1 0 0">
+    <specification magazine_size="0" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+    can_shoot_prone="0" 
+    suppressed="0" 
+    name="aegis" 
+    class="3" 
+    sight_range_modifier="1" 
+    slot="1" />
+    <animation key="hold" ref="51" />
+    <animation key="hold_on_wall" ref="51" />
+    <animation key="hold_casual" ref="51" />
+    <animation key="still_against_wall" ref="51" />
+    <animation key="recoil" ref="51" />
+    <animation key="crouching" ref="52" />
+    <animation key="running" ref="53" />
+    <animation key="walking" ref="54" />
+    <animation key="walking_backwards" ref="59" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, riot shield, reversed" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, shield, reversed" />
+    <animation key="changing_weapon_out" ref="57" />
+    <animation key="changing_weapon_in" ref="58" />
+    <animation key="reload" ref="35" />
 
-<weapon filename="riot_shield_base.weapon" key="aegis.weapon" name="aegis" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="30.0">
+    <sound class="impact" fileref="shield_drop.wav" />    
+
+      <model filename="aegis.xml" />
       <hud_icon filename="hud_aegis.png" />
       <commonness value="0" />
+	  <can_respawn_with="0">
       <capacity value="1" source="rank" source_value="0.0" />
       <inventory encumbrance="10.0" price="3.0" />
 
@@ -17,13 +44,8 @@
       <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
       <!-- melee_hit goes right through, and doesn't consume -->
 	  
-	  <model filename="aegis.xml" />
-      <commonness value="0" />
-      <capacity value="1" source="rank" source_value="0.0" />
-      <inventory encumbrance="10.0" price="3.0" />
-
-      <shield offset="0.4 -0.35 0" extent="0.8 1.4 4.8" />
+    <shield offset="0.4 -0.35 0" extent="0.8 1.4 4.8" />
     
-      <modifier class="speed" value="-0.50" />
+    <modifier class="speed" value="-0.40" />
 
 </weapon>
