@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<weapon filename="riot_shield_base.weapon" key="aegis.weapon" name="aegis">
+<weapon filename="riot_shield_base.weapon" key="aegis.weapon" name="aegis" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="30.0">
       <hud_icon filename="hud_aegis.png" />
-      <commonness value="1000" />
+      <commonness value="0" />
       <capacity value="1" source="rank" source_value="0.0" />
       <inventory encumbrance="10.0" price="3.0" />
 
