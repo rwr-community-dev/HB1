@@ -21,6 +21,7 @@
   <weapon file="qbz95_us.weapon" />
   <weapon file="shovel.weapon" />
   <weapon file="torch.weapon" />
+  <weapon file="aegis.weapon" />
 
   <!-- test -->
   <!-- taser is already loaded by weapons/invasion_all_weapons, thus ignored here? -->
