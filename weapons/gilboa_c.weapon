@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_rare.weapon" key="gilboa_c.weapon">
     <tag name="assault" />
@@ -25,7 +26,7 @@
     <sound key="fire" fileref="gilboa_c_shot.wav" pitch_variety="0.05" volume="0.65" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
-    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" volume="0.0" />
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="gilboa_c.xml" />
 

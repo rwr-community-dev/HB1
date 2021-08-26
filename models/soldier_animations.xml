@@ -40424,7 +40424,7 @@
             <control key="strong_hand" value="0" />
         </frame>
     </animation>
-    <animation loop="0" end="2.150000" speed="0.500000" comment="reloading, kulakov">
+    <animation loop="0" end="2.150000" speed="0.800000" comment="reloading, kulakov">
         <frame time="0.000000">
             <position x="1.553612" y="55.665001" z="1.570316" />
             <position x="1.461781" y="48.712612" z="0.760448" />
