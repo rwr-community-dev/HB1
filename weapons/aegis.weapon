@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<weapon filename="riot_shield_base.weapon" key="aegis.weapon" name="aegis">
+      <hud_icon filename="hud_aegis.png" />
+      <commonness value="1000" />
+      <capacity value="1" source="rank" source_value="0.0" />
+      <inventory encumbrance="10.0" price="3.0" />
+
+      <!-- state modifiers for weapons are connected to shield impact events -->
+      <!-- deflects all bullets; death, stun, wound become none, doesn't consume -->
+      <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+      <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+      <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+      <!-- death and wound blast causes the item to be consumed, stun is ignored -->
+      <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" consumes_item="0"/>
+      <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0"/>
+      <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+      <!-- melee_hit goes right through, and doesn't consume -->
+	  
+	  <model filename="aegis.xml" />
+      <commonness value="0" />
+      <capacity value="1" source="rank" source_value="0.0" />
+      <inventory encumbrance="10.0" price="3.0" />
+
+      <shield offset="0.4 -0.35 0" extent="0.8 1.4 4.8" />
+    
+      <modifier class="speed" value="-0.50" />
+
+</weapon>
