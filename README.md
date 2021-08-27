@@ -23,4 +23,8 @@
 * Kulakov flame duration, radius and reload speed increase (as too many players complain about it)
 * RPD sound remake and rebalancing
 * Welding torch idea and scripts are from Unit G17; Square edited the scripts and KFredfox did other work
-*  Pumpkin box is prepared for the comming Halloween and Pumpkin candies for everyone
+* Pumpkin box is prepared for the coming Halloween and Pumpkin candies for everyone! 🎃
+* Medical Dart Gun (MDG):
+  - increase mdg dart blast range by .3
+  - give mdg a tiny speed boost (half medkit)
+  - mdg dart made to faction_compare="equal" to prevent heal farming enemies
