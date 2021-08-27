@@ -317,7 +317,7 @@ class BasicCommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "m16a4_w_m203.weapon", "weapon", 0);
 			spawnInstanceNearPlayer(senderId, "tti.weapon", "weapon", 0);
 			spawnInstanceNearPlayer(senderId, "gepard_m6_lynx.weapon", "weapon", 0);
-  <!-- fox test -->   
+        // <!-- fox test -->
         } else if (checkCommand(message, "pk")) {
 			spawnInstanceNearPlayer(senderId, "gift_box_4.carry_item", "carry_item", 0);
 			spawnInstanceNearPlayer(senderId, "shock_paddle.weapon", "weapon", 0);
@@ -329,7 +329,7 @@ class BasicCommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "qbz95.weapon", "weapon", 0);
 			spawnInstanceNearPlayer(senderId, "shovel.weapon", "weapon", 0);
 			spawnInstanceNearPlayer(senderId, "torch.weapon", "weapon", 0);
-  <!-- fox test -->
+        //  <!-- fox test -->
 
 		} else  if(checkCommand(message, "guntruck")) {
 			spawnInstanceNearPlayer(senderId, "guntruck_flare.projectile", "projectile");  
