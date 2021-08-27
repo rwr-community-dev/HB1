@@ -143,7 +143,7 @@ class BasicCommandHandler : Tracker {
                 string command =
                     "<command class='xp_reward'" +
                     "	character_id='" + id + "'" +
-                    "	reward='0.4'>" + // multiplier affected..
+                    "	reward='1.0'>" + // multiplier affected..
                     "</command>";
                 m_metagame.getComms().send(command);
             } else {
@@ -156,7 +156,7 @@ class BasicCommandHandler : Tracker {
                 string command =
                     "<command class='rp_reward'" +
                     "	character_id='" + id + "'" +
-                    "	reward='500'>" + // multiplier affected..
+                    "	reward='5000'>" + // multiplier affected..
                     "</command>";
                 m_metagame.getComms().send(command);
             }
@@ -233,9 +233,21 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "dog", "soldier", 0);
         } else if (checkCommand(message, "gb1")) {
             spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "gb2")) {
             spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "gb3")) {
+            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "cb1")) {
             spawnInstanceNearPlayer(senderId, "gift_box_community_1.carry_item", "carry_item", 0);
@@ -274,6 +286,10 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);   			
         } else if (checkCommand(message, "lottery")) {
+            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "177")) {
             spawnInstanceNearPlayer(senderId, "vest_exo.carry_item", "carry_item", 0);
