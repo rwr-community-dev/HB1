@@ -28,8 +28,7 @@
 
       <model filename="aegis.xml" />
       <hud_icon filename="hud_aegis.png" />
-      <commonness value="0" />
-      <can_respawn_with="0">
+      <commonness value="0" can_respawn_with="0"/>
       <capacity value="1" source="rank" source_value="0.0" />
       <inventory encumbrance="10.0" price="3.0" />
 
