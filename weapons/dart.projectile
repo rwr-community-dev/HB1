@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="medical dart" slot="1" time_to_live="1.0" pulldown_in_air="4">
+    <trigger class="impact" />
+    <result class="blast" radius="1" damage="0.0" push="0.0" decal="0" character_state="unwound" />
+    <rotation class="motion" />
+
+    <model mesh_filename="dart.xml" />
+
+</projectile>
