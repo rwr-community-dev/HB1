@@ -19,7 +19,7 @@
 
 # Rebalancing proposals:
 * Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4, so we are only boosting by a third)
-* Modify flame projectile blasts to not affect allies (for consistency with dlc) <-- including kulakov firenade
+* Modify flame projectile blasts (including kulakov firenade) to only hurt enemies (for consistency with dlc)
 * Kulakov flame duration, radius and reload speed increase (as too many players complain about it)
 * RPD sound remake and rebalancing
 * Welding torch idea and scripts are from Unit G17; Square edited the scripts and KFredfox did other work
@@ -28,3 +28,4 @@
   - increase mdg dart blast range by .3
   - give mdg a tiny speed boost (half medkit)
   - mdg dart made to faction_compare="equal" to prevent heal farming enemies
+* Gunship blast projectiles made to only hurt enemies (for reduced gunship tk and increased crazy charges)
