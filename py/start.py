@@ -3,12 +3,17 @@
 Usage:
     start.py
 """
+import enum
+import queue
 import dataclasses
+import itertools
 import sys
 import time
 import pathlib
 import subprocess
 import xml.etree.ElementTree as XmlET
+
+from typing import Callable
 
 # import docopt
 
@@ -44,11 +49,26 @@ class PackageConfig:
         return cls(name, description, campaign_entry_script, quickmatch_entry_script)
 
 
+# @dataclasses.dataclass
+# class Stage:
+#     name: str
+#     completion: str
+#     do: Callable
+
+
+class Context(enum.Enum):
+    INIT = 1
+    START_SCRIPT = 2
+    START_SERVER = 3
+    PRINT_STATUS = 4
+    WAIT = 5
+
+
 if __name__ == '__main__':
+    path_to_package = f"media/packages/{PKG_DIR.name}"
     # args = docopt.docopt(__doc__)
     # print(f"docopt args={args}")
 
-    # print(PKG_DIR)
     print(f"Starting RWR from within '{PKG_DIR}'...")
     if not PKG_CFG.exists():
         print(f"Error: no package_config.xml found in '{PKG_DIR}' :/")
@@ -66,61 +86,63 @@ if __name__ == '__main__':
 
     print(f"Starting '{RWR_SERV}'...")
     rwr_serv_args = [f"{RWR_SERV}"]
-    # print(rwr_serv_args)
 
     rwr_serv = subprocess.Popen(rwr_serv_args, cwd=RWR_ROOT.absolute(), encoding="utf-8",
                                 stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
+    # stages = queue.Queue()
+    # stages.put(Stage("init", "Game loaded", None))
+    _spinner_steps, _s = itertools.cycle(["/", "-", "\\", "|"]), "/"
+
+    ctx = Context.INIT
+    script_started = False
     try:
-        trailing_data = None
         while True:
-            # for line in sys.stdin:
-            #     print(line)
-            output_line = rwr_serv.stdout.readline()
-            print(output_line, end="")
-            stripped_line = output_line.strip()
-            if stripped_line == "Game loaded":
-                print(f"Starting script '{pkg_cfg.campaign_entry_script}'...")
-                rwr_serv.stdin.write("help\n")
-                # rwr_serv.stdin.write()
-                rwr_serv.stdin.flush()
-                pkg_dir = f"media/packages/{PKG_DIR.name}"
-                print(pkg_dir)
+            if ctx == Context.INIT:
+                # get lines, render nice, wait for `Game loaded` before proceeding
+                output_line = rwr_serv.stdout.readline()
+                stripped_line = output_line.strip()
+                if stripped_line.startswith("Loading"):
+                    print(f"{_s} Loading...", end="\r")
+                    _s = next(_spinner_steps)
+                elif stripped_line == "Game loaded":
+                    # print(f"Game loaded - starting script '{pkg_cfg.campaign_entry_script}'...")
+                    # rwr_serv.stdin.write("help\n")
+                    # rwr_serv.stdin.flush()
+                    ctx = Context.START_SCRIPT
+            elif ctx == Context.START_SCRIPT:
+                if not script_started:
+                    print(f"Game loaded - starting script '{pkg_cfg.campaign_entry_script}'...")
+                    rwr_serv.stdin.write(f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}\n")
+                    rwr_serv.stdin.flush()
+                    script_started = True
+                # get lines, render nice, wait for `Game loaded` before proceeding
+                output_line = rwr_serv.stdout.readline()
+                stripped_line = output_line.strip()
+                if stripped_line.startswith("Loading"):
+                    print(f"{_s} Loading...", end="\r")
+                    _s = next(_spinner_steps)
+                elif stripped_line == "Game loaded":
+                    # TODO: add step to START_SERVER here
+                    ctx = Context.START_SERVER
+            elif ctx == Context.START_SERVER:
+                print("Starting server...")
+                # TODO: do it!
+                ctx = Context.PRINT_STATUS
+            elif ctx == Context.PRINT_STATUS:
+                print("Collecting status info from rwr server...")
+                # TODO: collect some status
+                ctx = Context.WAIT
+            elif ctx == Context.WAIT:
+                output_line = rwr_serv.stdout.readline()
+                # stripped_line = output_line.strip()
+                print(output_line, end="")
+            else:
+                raise Exception("invalid context :/")
+            # else:
+            #     print(output_line, end="")
     except KeyboardInterrupt:
         print("Ctrl-C detected, shutting down!")
         rwr_serv.kill()
         # rwr_serv.stdin.write("quit\n")
         # rwr_serv.stdin.flush()
-
-    # oouts, oerrs = None, None
-    # try:
-    #     while True:
-    #         try:
-    #             outs, errs = rwr_serv.communicate(timeout=3)
-    #             print(f"{outs=}\n{errs=}")
-    #             if outs != oouts:
-    #                 for out in outs:
-    #                     print(f"~ {out!r}")
-    #             if errs != oerrs:
-    #                 for err in errs:
-    #                     print(f"~ {err!r}")
-    #             # print(f"sdfc{outs=}\n{errs=}")
-    #             oouts, oerrs = outs, errs
-    #             time.sleep(0.1)
-    #         except subprocess.TimeoutExpired as e:
-    #             print(f"timeout expired - {e.stdout} :/")
-    #             time.sleep(2)
-    # except KeyboardInterrupt:
-    #     print("Ctrl-C detected - shutting down...")
-    #     # print(rwr_serv.stdout.read())
-    #     rwr_serv.kill()
-
-    # try:
-    #     while True:
-    #         i = input(">> ").lower()
-    #         if i in ["q", "quit"]:
-    #             print("Quitting...")
-    #             break
-    # except KeyboardInterrupt:
-    #     print("Ctrl-C detected!")
-
