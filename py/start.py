@@ -39,7 +39,7 @@ class PackageConfig:
     quickmatch_entry_script: str
 
     @classmethod
-    def fromXmlFile(cls, path: pathlib.Path):
+    def from_xml_file(cls, path: pathlib.Path):
         with path.open(mode="r", encoding="utf-8") as f:
             pkg_cfg_xml = XmlET.fromstring(f.read())
         name = pkg_cfg_xml.attrib["name"]
@@ -49,19 +49,33 @@ class PackageConfig:
         return cls(name, description, campaign_entry_script, quickmatch_entry_script)
 
 
-# @dataclasses.dataclass
-# class Stage:
-#     name: str
-#     completion: str
-#     do: Callable
+def _consume_prompt(proc):
+    # consume the prompt marker
+    prompt_marker = proc.stdout.read(1)
+    if prompt_marker != ">":
+        # print(f"bad error = {proc.stdout.readline()}")
+        raise Exception(f"prompt marker read got unexpected '{prompt_marker}' :/")
 
 
-class Context(enum.Enum):
-    INIT = 1
-    START_SCRIPT = 2
-    START_SERVER = 3
-    PRINT_STATUS = 4
-    WAIT = 5
+def wait_for_server_load(proc):
+    _spinner_steps = itertools.cycle(["/", "-", "\\", "|"])
+    while True:
+        # read a line from rwr server stdout
+        output_line = proc.stdout.readline()
+        # strip the line for easier processing
+        stripped_line = output_line.strip()
+        # print(f"{stripped_line=!r}")
+        if stripped_line.startswith("Loading"):
+            _s = next(_spinner_steps)
+            print(f"{_s} Loading...", end="\r")
+        elif stripped_line == "Game loaded":
+            # exit the while loop now
+            break
+        else:
+            print(stripped_line)
+    # consume the prompt marker
+    # _consume_prompt(proc)
+    return True
 
 
 if __name__ == '__main__':
@@ -76,7 +90,7 @@ if __name__ == '__main__':
 
     print("Reading package config...")
     # with PKG_CFG.open(mode="r", encoding="utf-8") as f:
-    pkg_cfg = PackageConfig.fromXmlFile(PKG_CFG)
+    pkg_cfg = PackageConfig.from_xml_file(PKG_CFG)
     print(f"Package name: {pkg_cfg.name}, script: {pkg_cfg.campaign_entry_script}")
 
     print("Locating RWR server executable...")
@@ -90,59 +104,75 @@ if __name__ == '__main__':
     rwr_serv = subprocess.Popen(rwr_serv_args, cwd=RWR_ROOT.absolute(), encoding="utf-8",
                                 stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
-    # stages = queue.Queue()
-    # stages.put(Stage("init", "Game loaded", None))
-    _spinner_steps, _s = itertools.cycle(["/", "-", "\\", "|"]), "/"
-
-    ctx = Context.INIT
-    script_started = False
     try:
-        while True:
-            if ctx == Context.INIT:
-                # get lines, render nice, wait for `Game loaded` before proceeding
-                output_line = rwr_serv.stdout.readline()
-                stripped_line = output_line.strip()
-                if stripped_line.startswith("Loading"):
-                    print(f"{_s} Loading...", end="\r")
-                    _s = next(_spinner_steps)
-                elif stripped_line == "Game loaded":
-                    # print(f"Game loaded - starting script '{pkg_cfg.campaign_entry_script}'...")
-                    # rwr_serv.stdin.write("help\n")
-                    # rwr_serv.stdin.flush()
-                    ctx = Context.START_SCRIPT
-            elif ctx == Context.START_SCRIPT:
-                if not script_started:
-                    print(f"Game loaded - starting script '{pkg_cfg.campaign_entry_script}'...")
-                    rwr_serv.stdin.write(f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}\n")
-                    rwr_serv.stdin.flush()
-                    script_started = True
-                # get lines, render nice, wait for `Game loaded` before proceeding
-                output_line = rwr_serv.stdout.readline()
-                stripped_line = output_line.strip()
-                if stripped_line.startswith("Loading"):
-                    print(f"{_s} Loading...", end="\r")
-                    _s = next(_spinner_steps)
-                elif stripped_line == "Game loaded":
-                    # TODO: add step to START_SERVER here
-                    ctx = Context.START_SERVER
-            elif ctx == Context.START_SERVER:
-                print("Starting server...")
-                # TODO: do it!
-                ctx = Context.PRINT_STATUS
-            elif ctx == Context.PRINT_STATUS:
-                print("Collecting status info from rwr server...")
-                # TODO: collect some status
-                ctx = Context.WAIT
-            elif ctx == Context.WAIT:
-                output_line = rwr_serv.stdout.readline()
-                # stripped_line = output_line.strip()
-                print(output_line, end="")
-            else:
-                raise Exception("invalid context :/")
-            # else:
-            #     print(output_line, end="")
+        # wait for the first prompt
+        wait_for_server_load(rwr_serv)
+        _consume_prompt(rwr_serv)
+        print(f"Game loaded - sending start script for '{pkg_cfg.campaign_entry_script}'...")
+        # write the start script command to rwr server stdin
+        rwr_serv.stdin.write(f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}\n")
+        rwr_serv.stdin.flush()
+        # consume the next prompt
+        # _consume_prompt(rwr_serv)
+        # wait again as the server now loads from overlays set in the script
+        wait_for_server_load(rwr_serv)
+        print(f"Package script loaded - starting server?!")
+        # write the start server command to rwr server stdin
+
     except KeyboardInterrupt:
         print("Ctrl-C detected, shutting down!")
         rwr_serv.kill()
-        # rwr_serv.stdin.write("quit\n")
-        # rwr_serv.stdin.flush()
+
+    #
+    # ctx = Context.INIT
+    # script_started = False
+    # try:
+    #     while True:
+    #         if ctx == Context.INIT:
+    #             # get lines, render nice, wait for `Game loaded` before proceeding
+    #             output_line = rwr_serv.stdout.readline()
+    #             stripped_line = output_line.strip()
+    #             if stripped_line.startswith("Loading"):
+    #                 print(f"{_s} Loading...", end="\r")
+    #                 _s = next(_spinner_steps)
+    #             elif stripped_line == "Game loaded":
+    #                 # print(f"Game loaded - starting script '{pkg_cfg.campaign_entry_script}'...")
+    #                 # rwr_serv.stdin.write("help\n")
+    #                 # rwr_serv.stdin.flush()
+    #                 ctx = Context.START_SCRIPT
+    #         elif ctx == Context.START_SCRIPT:
+    #             if not script_started:
+    #                 print(f"Game loaded - starting script '{pkg_cfg.campaign_entry_script}'...")
+    #                 rwr_serv.stdin.write(f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}\n")
+    #                 rwr_serv.stdin.flush()
+    #                 script_started = True
+    #             # get lines, render nice, wait for `Game loaded` before proceeding
+    #             output_line = rwr_serv.stdout.readline()
+    #             stripped_line = output_line.strip()
+    #             if stripped_line.startswith("Loading"):
+    #                 print(f"{_s} Loading...", end="\r")
+    #                 _s = next(_spinner_steps)
+    #             elif stripped_line == "Game loaded":
+    #                 # TODO: add step to START_SERVER here
+    #                 ctx = Context.START_SERVER
+    #         elif ctx == Context.START_SERVER:
+    #             print("Starting server...")
+    #             # TODO: do it!
+    #             ctx = Context.PRINT_STATUS
+    #         elif ctx == Context.PRINT_STATUS:
+    #             print("Collecting status info from rwr server...")
+    #             # TODO: collect some status
+    #             ctx = Context.WAIT
+    #         elif ctx == Context.WAIT:
+    #             output_line = rwr_serv.stdout.readline()
+    #             # stripped_line = output_line.strip()
+    #             print(output_line, end="")
+    #         else:
+    #             raise Exception("invalid context :/")
+    #         # else:
+    #         #     print(output_line, end="")
+    # except KeyboardInterrupt:
+    #     print("Ctrl-C detected, shutting down!")
+    #     rwr_serv.kill()
+    #     # rwr_serv.stdin.write("quit\n")
+    #     # rwr_serv.stdin.flush()
