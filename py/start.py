@@ -61,18 +61,18 @@ def wait_for_server_load(proc):
     _spinner_steps = itertools.cycle(["/", "-", "\\", "|"])
     while True:
         # read a line from rwr server stdout
-        output_line = proc.stdout.readline().lstrip(">")
+        _output_line = proc.stdout.readline().lstrip(">")
         # strip the line for easier processing
-        stripped_line = output_line.strip()
+        _stripped_line = _output_line.strip()
         # print(f"{stripped_line=!r}")
-        if stripped_line.startswith("Loading"):
+        if _stripped_line.startswith("Loading"):
             _s = next(_spinner_steps)
             print(f"{_s} Loading...", end="\r")
-        elif stripped_line == "Game loaded":
+        elif _stripped_line == "Game loaded":
             # exit the while loop now
             break
         else:
-            print(stripped_line)
+            print(_stripped_line)
     return True
 
 
