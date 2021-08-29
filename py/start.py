@@ -28,6 +28,7 @@ PKG_DIR, SCRIPTS_DIR = PY_DIR.parent, PY_DIR.parent / "scripts"
 PKG_CFG = PKG_DIR / "package_config.xml"
 RWR_ROOT = PKG_DIR.parent.parent.parent
 RWR_GAME, RWR_SERV = RWR_ROOT / "rwr_game.exe", RWR_ROOT / "rwr_server.exe"
+SERVER_PORT = 7171
 RWR_STEAM_URI = "steam://rungameid/270150//"
 
 
@@ -112,7 +113,19 @@ if __name__ == '__main__':
         wait_for_server_load(rwr_serv)
         print(f"Package script loaded - starting server?!")
         # write the start server command to rwr server stdin
-        # TODO: this server stuff^
+        rwr_serv.stdin.write(f"start_server {SERVER_PORT} {PKG_DIR.name} 1.0 0\n")
+        rwr_serv.stdin.flush()
+        # todo: read the start_server response?
+        # print(rwr_serv.stdout.readline())
+        # wait until Ctrl-C
+        while True:
+            # read a line from rwr server stdout
+            output_line = rwr_serv.stdout.readline().lstrip(">")
+            # strip the line for easier processing
+            stripped_line = output_line.strip()
+            print(stripped_line)
+            # time.sleep(10)
+            # todo: print status
     except KeyboardInterrupt:
         print("Ctrl-C detected, shutting down!")
         rwr_serv.kill()
