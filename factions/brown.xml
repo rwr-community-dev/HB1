@@ -68,6 +68,7 @@
 		<models file="brown_default_basic.models" />
 		<models file="brown_default.models" />
 		<models file="common_bonus.models" />
+		<models file="brown_bonus.models" />
 
 		<resources file="common.resources" />
 		<resources file="brown_primaries.resources" />
