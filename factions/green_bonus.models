@@ -110,4 +110,19 @@
         <requirement class="rank" range="0 10000"/>
         <requirement class="weapon" slot="0" key="m60e4.weapon"/>
     </model>
+	<!-- *HIGH RANK -->
+    <model filename="soldier_rambo_5stars_green.xml">
+        <requirement class="rank" range="100 1000"/>
+        <requirement class="weapon" slot="0" key="m60e4.weapon"/>
+    </model>
+    <model filename="president_rambo_green.xml">
+        <requirement class="rank" range="1000 10000"/>
+        <requirement class="weapon" slot="0" key="m60e4.weapon"/>
+    </model>
+	<!-- CAMO -->
+    <model filename="soldier_rambo_camouflage_suit.xml">
+        <requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+    </model>
 </models>
