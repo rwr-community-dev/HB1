@@ -302,6 +302,9 @@
     <requirement class="rank" range="0 10000" />
     <requirement class="weapon" slot="0" key="shock_paddle.weapon"/>
   </model>
-
+  <model filename="soldier_med_5stars.xml">
+		<requirement class="rank" range="100 10000" />
+		<requirement class="weapon" slot="0" key="shock_paddle.weapon"/>
+  </model>
 
 </models>
