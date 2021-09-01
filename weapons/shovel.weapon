@@ -34,7 +34,6 @@
     <sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.0" />     
 
     <model mesh_filename="shovel.xml" />
-	<addon_model filename="engineer_back.xml" />
 
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />

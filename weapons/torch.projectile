@@ -29,7 +29,7 @@
     <effect class="result" key="other" ref="DragonFlame2" post_processing="1" />       
     <effect class="result" key="other" ref="DragonFlame2" lighting="0" /> 
     <effect class="result" key="other" ref="FlameSparkle" lighting="0" /> 
-
+    <effect class="result" key="other" ref="HitTankSparks" lighting="0" /> 
 
 
     <effect class="result" key="static_object" copy="terrain" />
