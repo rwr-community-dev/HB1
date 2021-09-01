@@ -101,7 +101,7 @@
     <requirement class="weapon" slot="1" key="sabre.weapon"/>
   </model>
 
-  <!-- CB7 -->
+  <!-- Halloween -->
   <!-- Shock Paddle Mes -->
   <model filename="soldier_med1.xml">
     <requirement class="rank" range="0 100" />
@@ -305,6 +305,22 @@
   <model filename="soldier_med_5stars.xml">
 		<requirement class="rank" range="100 10000" />
 		<requirement class="weapon" slot="0" key="shock_paddle.weapon"/>
+  </model>
+
+  <!-- Vampire -->
+  <model filename="costume_bat.xml">
+    <requirement class="carry_item" slot="1" key="costume_bat.carry_item"/>
+    <requirement class="rank" range="0 10000" />
+  </model>
+  <model filename="costume_bat_1.xml">
+    <requirement class="carry_item" slot="1" key="costume_bat_1"/>
+    <requirement class="rank" range="0 10000" />
+  </model>
+
+  <!-- Werewolf -->
+  <model filename="costume_were_1.xml">
+    <requirement class="carry_item" slot="1" key="costume_werewolf_2"/>
+    <requirement class="rank" range="0 10000" />
   </model>
 
 </models>

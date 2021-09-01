@@ -2,7 +2,7 @@
 <weapon file="base_primary.weapon" key="torch.weapon">
     <tag name="assault" />
     <specification 
-  retrigger_time="0.08" 
+  retrigger_time="1.2" 
   accuracy_factor="1.0" 
   sustained_fire_grow_step="0.0" 
   sustained_fire_diminish_rate="1.0" 
