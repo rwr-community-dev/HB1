@@ -8,7 +8,6 @@
   <call key='a10_gun_run.call' />
   <call key='gunship_run.call' />
 
-  <!-- fox test -->
   <weapon key='shock_paddle.weapon' />
   <weapon key='g3_3x.weapon' />
   <weapon key='g3_1x.weapon' />
@@ -21,7 +20,7 @@
   <weapon key='qbz95_us.weapon' />
   <weapon key='shovel.weapon' />
   <weapon key='torch.weapon' />
-  <!-- fox test -->
-
+  <weapon key='aegis.weapon' />
+  <weapon key="dual_desert_eagle_gold.weapon" />
 
 </resources>

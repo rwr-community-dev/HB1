@@ -68,6 +68,7 @@
 		<models file="grey_default_basic.models" />
 		<models file="grey_default.models" />
 		<models file="common_bonus.models" />
+		<models file="grey_bonus.models" />
 
 		<resources file="common.resources" />
 		<resources file="grey_primaries.resources" />
