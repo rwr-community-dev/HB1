@@ -6,6 +6,9 @@
 // HACK: [CB7] include trackers here for late addition to a derived GameModeInvasion metagame
 /* #include "rangefinder.as"
 #include "spawn_with_dir.as" */
+//torch and hollewasdad (hmmm i forgot how to spill it , the fastival people dress up as monsters) 's scripts
+#include "halloween.as"
+#include "repair_crane.as"
 
 // --------------------------------------------
 void main(dictionary@ inputData) {
@@ -67,6 +70,9 @@ void main(dictionary@ inputData) {
     // HACK: [CB7] late add CB7 trackers
     /* metagame.addTracker(RangeFinder(metagame));
     metagame.addTracker(SpawnWithDir(metagame)); */
+    metagame.addTracker(Halloween(metagame));
+    metagame.addTracker(RepairCrane(metagame));
+
 
     metagame.run();
     metagame.uninit();

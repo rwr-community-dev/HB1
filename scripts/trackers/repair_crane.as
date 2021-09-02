@@ -49,7 +49,7 @@ class RepairCrane : Tracker {
 			y_offset = -5.0;
 		} else if (key == "repair_torch") {
 			range = 3.0;
-			repairValue = 0.03;
+			repairValue = 0.25;
 			overHealth = 0.9;
 			y_offset = 0.0;
 			rpReward = 0;

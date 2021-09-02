@@ -13,6 +13,9 @@
   <projectile file="torch.projectile" />
   <projectile file="propane.projectile" />
   <projectile file="pumpkin.projectile" />
+  <projectile file="vampire.projectile" />
+  <projectile file="werewolf.projectile" />
+
   <!-- fox test -->
 
 </projectiles>

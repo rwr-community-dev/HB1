@@ -1,0 +1,46 @@
+import FakeNormalAndDepthWithTexture from "normal_and_depth.material"
+
+
+
+
+material vampireM : FakeNormalAndDepthWithTexture
+{
+    	receive_shadows off
+
+	technique FakeNormalAndDepth {
+        	pass FakeNormalAndDepth {
+            		texture_unit {
+                		texture VampireWing.png
+	        		tex_address_mode clamp
+            		}
+			fragment_program_ref NormalAndDepthWithTextureFP {
+				param_named alphaRejection float 0.125
+			}
+        	}
+    	} 
+
+	technique Basic
+	{
+		pass 
+		{
+			lighting off
+
+			//lighting on
+			//fog_override true
+			//ambient vertexcolour
+			//diffuse vertexcolour
+
+			depth_write on
+			
+			//scene_blend alpha_blend
+			alpha_rejection greater 32
+
+
+			texture_unit 
+			{
+				tex_address_mode clamp
+				texture VampireWing.png
+			}
+		}
+	}
+}
