@@ -1,5 +1,7 @@
 # CB7
 ## Submissions
+* Vice president //KFredfox
+* Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies//Square/KFredfox
 * Welding Torch //Unit G17/Square/KFredfox
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox
@@ -24,6 +26,8 @@
 * RPD sound remake and rebalancing
 * Welding torch idea and scripts are from Unit G17; Square edited the scripts and KFredfox did other work
 * Pumpkin box is prepared for the coming Halloween and Pumpkin candies for everyone! 🎃
+* Killing 6 enemies in 60s within 5 meters will now transform a normal werewolf suit into a frenzy one
+* damaged Vampire costume can be healed by killing an enemy in a melee attack
 * Medical Dart Gun (MDG):
   - increase mdg dart blast range by .3
   - give mdg a tiny speed boost (half medkit)
@@ -59,5 +63,5 @@
 * Kulakov
   - fire/reload animation feels bugged, I always try to reload after firing my last shot, and it just doesn't register.
   - Also seems to be bugged when shooting from elevation, shots go very far past the aimed spot.
-  - Shooting the Kulakov sounds like someone is eating a potato chip. Not sure if intended or not.
+  - Shooting the Kulakov sounds like someone is eating a potato chip. Not sure if intended or not. <<I recorded it myself at home. Feel free to replace it with a better one --KFredfox
 

@@ -212,13 +212,13 @@
 	<!-- high rank -->
 	<!-- -------------------------- -->
 	<model filename="soldier_5stars_brown.xml">
-		<requirement class="rank" range="100 300" />
+		<requirement class="rank" range="100 500" />
 	</model>
 	<model filename="soldier_vp_brown.xml">
-		<requirement class="rank" range="300 1000" />
+		<requirement class="rank" range="500 1200" />
 	</model>
 	<model filename="president_brown.xml">
-		<requirement class="rank" range="1000 10000" />
+		<requirement class="rank" range="1200 10000" />
   </model>
 
 	<!-- -------------------------- -->
