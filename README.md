@@ -29,9 +29,6 @@
   - give mdg a tiny speed boost (half medkit)
   - mdg dart made to faction_compare="equal" to prevent heal farming enemies
 * Gunship blast projectiles made to only hurt enemies (for reduced gunship tk and increased crazy charges)
-* G11 
-  - recoil recovery 0.4 --> 0.44
-  - G11 still unusable due to recoil problems. Adding a different fire mode is probably the better solution.
 * UMP
   - kill chance 0.5 --> 0.6
   - max range 43 --> 39
@@ -49,11 +46,11 @@
   - bad speed prevents it from being a good marksman rifle.  It is outranged by the VSS of all things.
   - these changes aim to give it a useful niche as a fast-moving armor-piercing rifle. 1.2 damage is not reliable AP.
 * VSS
-  - recoil recovery 3 --> 2.5
+  - recoil recovery 3 --> 2.8
   - Currently, the VSS is the best stealth gun, by far. Long range, high rate of fire for a sniper rifle, good damage
   - Recoil recovery nerfed, because why does a marksman/AR hybrid have the recoil recovery of an SMG?
 * M6 Lynx
-  - recoil 3 --> 2.5
+  - recoil recovery 0.9 --> 0.95
   - Lynx currently is a worse, but silent, barrett. This is fine, but bland.
   - Given less damage and slower move speed, seems reasonable that it would be easier to get a second accurate shot.
 * Kulakov
