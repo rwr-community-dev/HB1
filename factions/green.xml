@@ -70,6 +70,7 @@
 		<models file="green_default_basic.models" />
 		<models file="green_default.models" />
 		<models file="common_bonus.models" />
+		<models file="green_bonus.models" />
 
 		<resources file="common.resources" />
 		<resources file="green_primaries.resources" />
