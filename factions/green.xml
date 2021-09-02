@@ -54,6 +54,9 @@
 	<rank xp="1000.0" name="president">
 		<hud_icon filename="hud_rank17.png" />
 	</rank>     
+	<rank xp="300.0" name="vice president">
+		<hud_icon filename="hud_rank18.png" />
+	</rank>   
 
 	<!-- -------------- -->
 	<!-- player group -->
