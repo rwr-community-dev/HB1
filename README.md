@@ -3,6 +3,7 @@
 * Vice president //KFredfox
 * Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies//Square/KFredfox
+* M60 Rambo Skins //RubberyChicken
 * Welding Torch //Unit G17/Square/KFredfox
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox
 * G3 - Scope //Oche34/KFredfox
