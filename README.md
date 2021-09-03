@@ -61,4 +61,5 @@
   - fire/reload animation feels bugged, I always try to reload after firing my last shot, and it just doesn't register.
   - Also seems to be bugged when shooting from elevation, shots go very far past the aimed spot.
   - Shooting the Kulakov sounds like someone is eating a potato chip. Not sure if intended or not. <<I recorded it myself at home. Feel free to replace it with a better one --KFredfox
+  - I personally like the sound, but that's because it sounds like a literal potato chip. I just enjoy inflicting that knowledge on people :)
 
