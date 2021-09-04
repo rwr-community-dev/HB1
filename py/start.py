@@ -76,6 +76,11 @@ def wait_for_server_load(proc):
     return True
 
 
+def send_command(proc, cmd: str):
+    proc.stdin.write(f"{cmd}\n")
+    proc.stdin.flush()
+
+
 if __name__ == '__main__':
     path_to_package = f"media/packages/{PKG_DIR.name}"
     # args = docopt.docopt(__doc__)
@@ -107,14 +112,12 @@ if __name__ == '__main__':
         _consume_prompt(rwr_serv)
         print(f"Game loaded - sending start script for '{pkg_cfg.campaign_entry_script}'...")
         # write the start script command to rwr server stdin
-        rwr_serv.stdin.write(f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}\n")
-        rwr_serv.stdin.flush()
+        send_command(rwr_serv, f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}")
         # wait again as the server now loads from overlays set in the script
         wait_for_server_load(rwr_serv)
         print(f"Package script loaded - starting server?!")
         # write the start server command to rwr server stdin
-        rwr_serv.stdin.write(f"start_server {SERVER_PORT} {PKG_DIR.name} 1.0 0\n")
-        rwr_serv.stdin.flush()
+        send_command(rwr_serv, f"start_server {SERVER_PORT} {PKG_DIR.name} 1.0 0")
         # todo: read the start_server response?
         # print(rwr_serv.stdout.readline())
         # wait until Ctrl-C

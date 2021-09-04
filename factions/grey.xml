@@ -51,12 +51,24 @@
 	<rank xp="100.0" name="General of the Army">
 		<hud_icon filename="hud_rank16.png" />
 	</rank>
-	<rank xp="1000.0" name="president">
-		<hud_icon filename="hud_rank17.png" />
-	</rank>     
-	<rank xp="300.0" name="vice president">
-		<hud_icon filename="hud_rank18.png" />
-	</rank>   
+	<rank xp="200.0" name="General of the Army (II)">
+        <hud_icon filename="hud_rank16.png"/>
+    </rank>
+    <rank xp="300.0" name="General of the Army (III)">
+        <hud_icon filename="hud_rank16.png"/>
+    </rank>
+    <rank xp="400.0" name="General of the Army (IV)">
+        <hud_icon filename="hud_rank16.png"/>
+    </rank>
+    <rank xp="500.0" name="General of the Army (V)">
+        <hud_icon filename="hud_rank16.png"/>
+    </rank>
+    <rank xp="700.0" name="Vice President">
+        <hud_icon filename="hud_rank18.png"/>
+    </rank>
+    <rank xp="1000.0" name="President">
+        <hud_icon filename="hud_rank17.png"/>
+    </rank>
 		 
 
 	<!-- -------------- -->
