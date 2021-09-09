@@ -433,4 +433,16 @@
         <requirement class="carry_item" slot="1" key="costume_underwear"/>
         <requirement class="weapon" slot="0" key="dual_desert_eagle_gold.weapon"/>
     </model>
+	
+    <!-- Chicken Skins -->
+    <model filename="costume_chicken.xml">
+        <requirement class="carry_item" slot="1" key="costume_chicken.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+    </model>
+	
+	<model filename="costume_chicken.xml">
+        <requirement class="carry_item" slot="1" key="costume_chicken_1.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+    </model>
+	
 </models>
