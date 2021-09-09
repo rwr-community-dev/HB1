@@ -11,4 +11,6 @@
 	<carry_item file="gift_box_4.carry_item" />    
 	<carry_item file="costume_bat.carry_item" />    
   <!-- fox test -->
+	
+	<carry_item file="costume_chicken.carry_item" />
 </carry_items>

@@ -3,6 +3,7 @@
 * Vice president //KFredfox
 * Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies//Square/KFredfox
+* M60 Rambo Skins //RubberyChicken
 * Welding Torch //Unit G17/Square/KFredfox
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox
 * G3 - Scope //Oche34/KFredfox
@@ -33,9 +34,6 @@
   - give mdg a tiny speed boost (half medkit)
   - mdg dart made to faction_compare="equal" to prevent heal farming enemies
 * Gunship blast projectiles made to only hurt enemies (for reduced gunship tk and increased crazy charges)
-* G11 
-  - recoil recovery 0.4 --> 0.44
-  - G11 still unusable due to recoil problems. Adding a different fire mode is probably the better solution.
 * UMP
   - kill chance 0.5 --> 0.6
   - max range 43 --> 39
@@ -53,15 +51,18 @@
   - bad speed prevents it from being a good marksman rifle.  It is outranged by the VSS of all things.
   - these changes aim to give it a useful niche as a fast-moving armor-piercing rifle. 1.2 damage is not reliable AP.
 * VSS
-  - recoil recovery 3 --> 2.5
+  - recoil recovery 3 --> 2.8
   - Currently, the VSS is the best stealth gun, by far. Long range, high rate of fire for a sniper rifle, good damage
   - Recoil recovery nerfed, because why does a marksman/AR hybrid have the recoil recovery of an SMG?
 * M6 Lynx
-  - recoil 3 --> 2.5
+  - recoil recovery 0.9 --> 0.95
   - Lynx currently is a worse, but silent, barrett. This is fine, but bland.
   - Given less damage and slower move speed, seems reasonable that it would be easier to get a second accurate shot.
 * Kulakov
   - fire/reload animation feels bugged, I always try to reload after firing my last shot, and it just doesn't register.
   - Also seems to be bugged when shooting from elevation, shots go very far past the aimed spot.
   - Shooting the Kulakov sounds like someone is eating a potato chip. Not sure if intended or not. <<I recorded it myself at home. Feel free to replace it with a better one --KFredfox
+  - I personally like the sound, but that's because it sounds like a literal potato chip. I just enjoy inflicting that knowledge on people :)
+* Faction Silenced pistols 
+  - remove XP requirement. new players should be able to use *something* stealthy on Copehill
 

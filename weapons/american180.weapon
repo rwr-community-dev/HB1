@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="american180.weapon">
+    <tag name="cqb" />
+    <specification retrigger_time="0.050" 
+    accuracy_factor="1.0" 
+    sustained_fire_grow_step="0.22" 
+    sustained_fire_diminish_rate="2.9" 
+    magazine_size="165" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="American-180" 
+    class="0" 
+    projectile_speed="90.0" />
+	<!-- 165/177/220/275 size mags were made for this gun irl -->
+	<!-- also has 2 fire rates, 1200rpm/0.05 at 1500 rpm/0.04 retrigger time-->
+	<!-- latter firerate only happened using proprietary ammo that is now quite rare on its own-->
+	
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation key="reload" ref="33" />
+	
+    <sound key="fire" fileref="tmp_shot.wav" pitch_variety="0.04" volume="0.3" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="american180.xml" />
+
+    <hud_icon filename="hud_american180.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+    <inventory encumbrance="10.0" price="180.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.32" 
+        kill_decay_start_time="0.31" 
+        kill_decay_end_time="0.45" />
+    </projectile>
+	
+	<modifier class="speed" value="-0.04" />
+	<!-- dmg math 
+	the a180 should do less dps than the p90.
+	p90 max 488 kills/min
+	a180 max 384 kills/min. but less reload time and less recoil. 0.05 trig / 0.32 dmg
+	but what if I go with the high-end estimate for fire rate and reduce damage a bit? 0.04 trig/0.30dmg?
+	a180 would then do 450 kills/min. too much.
+	dropping it down to 0.28 would get 420 kills/min. better, but the sub 400 mark is probably better
+	
+	why not have mag size as an option? larger mag for slower move speed and more recoil?
+	
+	now let's compare stable kills/sec.
+	a180 can get 13.18 shots/sec without recoil. The P90 can get 5.2
+		4.22 vs 3 stable kills/sec. and larger mag size, even accounting for fire rate.
+	-->
+</weapon>
