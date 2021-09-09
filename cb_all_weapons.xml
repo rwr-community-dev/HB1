@@ -24,4 +24,5 @@
   <weapon file="dog.weapon" />
   <weapon file="dog_heal.weapon" />
   <weapon file="dual_desert_eagle_gold.weapon" />
+  <weapon file="american180.weapon" />
 </weapons>
