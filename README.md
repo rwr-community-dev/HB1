@@ -19,6 +19,8 @@
   - adjust the dog vest
   - unwound dog animation very bad
   - adjust the spawn score for inva
+* Glock18 //LordNoodle
+* Surefire MGX //LordNoodle
 
 # Rebalancing proposals:
 * Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4, so we are only boosting by a third)

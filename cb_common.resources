@@ -23,4 +23,6 @@
   <weapon key='aegis.weapon' />
   <weapon key="dual_desert_eagle_gold.weapon" />
 
+  <weapon key="glock18.weapon" />
+  <weapon key="surefire_mgx.weapon" />
 </resources>
