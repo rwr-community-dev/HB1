@@ -426,12 +426,12 @@
     <!-- Duke Skins -->
     <model filename="soldier_duke.xml">
         <requirement class="rank" range="0 10000"/>
-        <requirement class="weapon" slot="0" key="dual_desert_eagle_gold.weapon"/>
+        <requirement class="weapon" slot="0" key="dual_desert_eagle.weapon"/>
     </model>
     <model filename="soldier_duke_underwear.xml">
         <requirement class="rank" range="0 10000"/>
         <requirement class="carry_item" slot="1" key="costume_underwear"/>
-        <requirement class="weapon" slot="0" key="dual_desert_eagle_gold.weapon"/>
+        <requirement class="weapon" slot="0" key="dual_desert_eagle.weapon"/>
     </model>
 	
     <!-- Chicken Skins -->
