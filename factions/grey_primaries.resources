@@ -8,6 +8,6 @@
 	<weapon key='spas-12.weapon' />
 
 	<weapon key='famasg1.weapon' />
-	<weapon key='dual_desert_eagle_gold.weapon' />
+	<weapon key='dual_desert_eagle.weapon' />
     <weapon key='m60.weapon' />
 </resources>
