@@ -15,9 +15,9 @@
 * Ordnance Shovel //CNmemories/KFredfox
 * Golden Dragunov SVD //Oche34/KFredfox
 * Chicken costume //RubberyChicken
-* M60 Rambo Skins //RubberyChicken
+* M60 Rambo skins //RubberyChicken
 * Aegis (Gold Riot Shield) //RubberyChicken
-* Dual Desert Eagles (plus Duke Nukem skin) //RubberyChicken (mostly done)
+* Dual Desert Eagles (plus Duke Nukem skin) //RubberyChicken
 * P90 Rangers (P90 color variants + Power Rangers style outfits) //RubberyChicken (Planned, not done)
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
@@ -69,7 +69,10 @@
   - fire/reload animation feels bugged, I always try to reload after firing my last shot, and it just doesn't register.
   - Also seems to be bugged when shooting from elevation, shots go very far past the aimed spot.
   - Shooting the Kulakov sounds like someone is eating a potato chip. Not sure if intended or not. <<I recorded it myself at home. Feel free to replace it with a better one --KFredfox
-  - I personally like the sound, but that's because it sounds like a literal potato chip. I just enjoy inflicting that knowledge on people :)
+  - I personally like the sound, but that is because it sounds like a literal potato chip. I just enjoy inflicting that knowledge on people :)
 * Faction Silenced pistols 
   - remove XP requirement. new players should be able to use *something* stealthy on Copehill
+* Stoner LMG
+  - move speed  -7 --> -6
+  - Stoner is supposed to be a mobile LMG, but it slower than the PKM.  Also it isn't a popular gun in general.
 
