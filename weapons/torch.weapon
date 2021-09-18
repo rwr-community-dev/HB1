@@ -32,7 +32,7 @@
     <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />
     <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
 
-    <sound key="fire" fileref="torch_shot.wav"  volume="0.1" />
+    <sound key="fire" fileref="torch_shot.wav"  volume="0.2" />
 	<sound key="magazine_out" fileref="flamer_out.wav" />
 	<sound key="magazine_in" fileref="portable_mortar_reload.wav" />
     <sound key="cycle" fileref="musket_magazine_out.wav" volume="0.25" />

@@ -12,7 +12,7 @@
 
 
 
-    <sound class="result" key="other" file="shock_paddle_hit.wav" pitch_variety="0.3" volume="0.2" />
+    <sound class="result" key="other" file="shock_paddle_hit.wav" pitch_variety="0.3" volume="0.38" />
 
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
