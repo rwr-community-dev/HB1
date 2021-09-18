@@ -15,7 +15,6 @@
 * Ordnance Shovel //CNmemories/KFredfox
 * Golden Dragunov SVD //Oche34/KFredfox
 * Aegis (Gold Riot Shield) //RubberyChicken
-* American-180 //RubberyChicken
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
   - adjust the dog vest
