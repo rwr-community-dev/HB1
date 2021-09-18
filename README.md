@@ -57,10 +57,6 @@
   - currently, the M711 feels terrible to use. bad range, bullet speed, and scope prevent it from being a useful sniper rifle
   - bad speed prevents it from being a good marksman rifle.  It is outranged by the VSS of all things.
   - these changes aim to give it a useful niche as a fast-moving armor-piercing rifle. 1.2 damage is not reliable AP.
-* VSS
-  - recoil recovery 3 --> 2.8
-  - Currently, the VSS is the best stealth gun, by far. Long range, high rate of fire for a sniper rifle, good damage
-  - Recoil recovery nerfed, because why does a marksman/AR hybrid have the recoil recovery of an SMG?
 * M6 Lynx
   - recoil recovery 0.9 --> 0.95
   - Lynx currently is a worse, but silent, barrett. This is fine, but bland.
