@@ -125,4 +125,19 @@
         <requirement class="rank" range="0 10000"/>
 		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
     </model>
+    <!-- *Exo -->
+    <model filename="soldier_rambo_b_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
+        <requirement class="weapon" slot="0" key="m60e4.weapon"/>
+    </model>
+    <model filename="soldier_rambo_b_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo_1"/>
+        <requirement class="weapon" slot="0" key="m60e4.weapon"/>
+    </model>
+    <model filename="soldier_rambo_b_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo_2"/>
+        <requirement class="weapon" slot="0" key="m60e4.weapon"/>
 </models>
