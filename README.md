@@ -1,8 +1,10 @@
 # CB7
 ## Submissions
-* Vice president //KFredfox
+* Vice president and Field Marshall skin//KFredfox
 * Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies//Square/KFredfox
+* FD338//Autumnsnail/Oche34
+* A180_smg//in4ss/Oche34
 * M60 Rambo Skins //RubberyChicken
 * Welding Torch //Unit G17/Square/KFredfox
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox
