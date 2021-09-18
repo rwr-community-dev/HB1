@@ -5,8 +5,6 @@
 * Pumpkin box loot and Pumpkin candies//Square/KFredfox
 * FD338//Autumnsnail/Oche34
 * A180_smg//in4ss/Oche34
-* Chicken costume //RubberyChicken
-* M60 Rambo Skins //RubberyChicken
 * Welding Torch //Unit G17/Square/KFredfox
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox
 * G3 - Scope //Oche34/KFredfox
@@ -16,7 +14,11 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox
 * Golden Dragunov SVD //Oche34/KFredfox
+* Chicken costume //RubberyChicken
+* M60 Rambo Skins //RubberyChicken
 * Aegis (Gold Riot Shield) //RubberyChicken
+* Dual Desert Eagles (plus Duke Nukem skin) //RubberyChicken (mostly done)
+* P90 Rangers (P90 color variants + Power Rangers style outfits) //RubberyChicken (Planned, not done)
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
   - adjust the dog vest
