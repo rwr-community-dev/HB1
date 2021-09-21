@@ -14,11 +14,11 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox
 * Golden Dragunov SVD //Oche34/KFredfox
+* Pink Ranger P90 //RubberyChicken (Planning on making a set, because you can't just have one Power Ranger. Hit me up if you want your item to be part of the set.)
+* Gold Ranger Riot Shield //RubberyChicken (model/hud done, making outfit to match the Pink Ranger P90)
 * Chicken costume //RubberyChicken
 * M60 Rambo skins //RubberyChicken
-* Aegis (Gold Riot Shield) //RubberyChicken
 * Dual Desert Eagles (plus Duke Nukem skin) //RubberyChicken
-* P90 Rangers (P90 color variants + Power Rangers style outfits) //RubberyChicken (Planned, not done)
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
   - adjust the dog vest
