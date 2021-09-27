@@ -17,7 +17,7 @@
 	sight_range_modifier="1.0"
 	projectile_speed="115.0"
 	projectiles_per_shot="2"
-	barrel_offset="0.0"
+	barrel_offset="0.4"
 	stab_enabled="1"
 	use_basic_muzzle_smoke_effect="0"
     slot="0" />

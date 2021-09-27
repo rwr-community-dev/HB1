@@ -14,9 +14,10 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox
 * Golden Dragunov SVD //Oche34/KFredfox
-* Pink Ranger P90 //RubberyChicken (Planning on making a set, because you can't just have one Power Ranger. Hit me up if you want your item to be part of the set.)
-* Gold Ranger Riot Shield //RubberyChicken (model/hud done, making outfit to match the Pink Ranger P90)
-* Chicken costume //RubberyChicken
+* Pink Ranger P90 //RubberyChicken 
+* Gold Ranger Riot Shield //RubberyChicken
+* Dragonspit (Blue Ranger) //RubberyChicken
+* Dragondust (Red Ranger) //RubberyChicken
 * M60 Rambo skins //RubberyChicken
 * Dual Desert Eagles (plus Duke Nukem skin) //RubberyChicken
 * Dogs! //Kiruex/JackMayol/bang
@@ -71,4 +72,5 @@
 * Stoner LMG
   - move speed  -7 --> -6
   - Stoner is supposed to be a mobile LMG, but it slower than the PKM.  Also it isn't a popular gun in general.
+  - Also its stance accuracy penalties are brutal, would recommend slightly buffing stand/crouch/walk
 
