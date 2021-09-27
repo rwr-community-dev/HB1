@@ -1,0 +1,115 @@
+material DragonFlame {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			//scene_blend one zero
+			fog_override true
+
+			texture_unit {
+				texture dragonflame.png
+			}
+		}
+	}
+}
+
+
+
+
+material DragonPropulsion
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			//ambient vertexcolour
+			//diffuse vertexcolour
+			//scene_blend one zero
+			scene_blend add
+			fog_override true
+			depth_write off
+
+			texture_unit
+			{
+				texture dragonflame.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material DragonFlame2
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			//ambient vertexcolour
+			//diffuse vertexcolour
+			//scene_blend one zero
+			scene_blend add
+			fog_override true
+			depth_write off
+
+			texture_unit
+			{
+				texture dragonflame.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Dragondust
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			//ambient vertexcolour
+			//diffuse vertexcolour
+			//scene_blend one zero
+			scene_blend add
+			fog_override true
+			depth_write off
+
+			texture_unit
+			{
+				texture dragondust.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Dragonspit
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			//ambient vertexcolour
+			//diffuse vertexcolour
+			//scene_blend one zero
+			scene_blend add
+			fog_override true
+			depth_write off
+
+			texture_unit
+			{
+				texture dragonspit.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
