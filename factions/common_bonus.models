@@ -803,4 +803,406 @@
         <requirement class="rank" range="0 10000"/>
 		<requirement class="weapon" slot="0" key="aegis.weapon"/>
     </model>
+	
+	
+    <!-- Red Ranger Skins -->
+    <model filename="soldier_dragon_red.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+	
+	<!-- *WEREWOLF -->
+    <model filename="soldier_dragon_red_were.xml">
+        <requirement class="carry_item" slot="1" key="costume_werewolf.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_were.xml">
+        <requirement class="carry_item" slot="1" key="costume_werewolf_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *CLOWN -->
+    <model filename="soldier_dragon_red_clown.xml">
+        <requirement class="carry_item" slot="1" key="costume_clown.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_clown.xml">
+        <requirement class="carry_item" slot="1" key="costume_clown_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *SANTA -->
+    <model filename="soldier_dragon_red_santa.xml">
+        <requirement class="carry_item" slot="1" key="costume_santa.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_santa.xml">
+        <requirement class="carry_item" slot="1" key="costume_santa_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *LIZARD -->
+    <model filename="soldier_dragon_red_lizard.xml">
+        <requirement class="carry_item" slot="1" key="costume_lizard.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_lizard.xml">
+        <requirement class="carry_item" slot="1" key="costume_lizard_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *UNDERWEAR -->
+    <model filename="soldier_dragon_red_underwear.xml">
+        <requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *BANANA -->
+    <model filename="soldier_dragon_red_banana.xml">
+        <requirement class="carry_item" slot="1" key="costume_banana.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_banana.xml">
+        <requirement class="carry_item" slot="1" key="costume_banana_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *black ops -->
+    <model filename="soldier_dragon_red_blackops.xml">
+        <requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_blackops.xml">
+        <requirement class="carry_item" slot="1" key="stealth1_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *Psycho Butcher -->
+    <model filename="soldier_dragon_red_chainsaw.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_chainsaw.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="costume_butcher_1"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *Exo -->
+    <model filename="soldier_dragon_red_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo_1"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo_2"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>    
+	<!-- *EOD -->
+    <model filename="soldier_dragon_red_eod.xml">
+        <requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_3"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_4"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_5"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_6"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *T3 -->
+    <model filename="soldier_dragon_red_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_3"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_4"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_5"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_6"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <!-- *CAMO VEST -->
+    <model filename="soldier_dragon_red_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_vest.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_3"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+    <model filename="soldier_dragon_red_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_4"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+	<!-- CAMO -->
+    <model filename="soldier_dragon_red_ghillie.xml">
+        <requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+		<requirement class="weapon" slot="0" key="dragondust.weapon"/>
+    </model>
+
+    <!-- Blue Ranger Skins -->
+    <model filename="soldier_dragon_blue.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+	
+	<!-- *WEREWOLF -->
+    <model filename="soldier_dragon_blue_were.xml">
+        <requirement class="carry_item" slot="1" key="costume_werewolf.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_were.xml">
+        <requirement class="carry_item" slot="1" key="costume_werewolf_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *CLOWN -->
+    <model filename="soldier_dragon_blue_clown.xml">
+        <requirement class="carry_item" slot="1" key="costume_clown.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_clown.xml">
+        <requirement class="carry_item" slot="1" key="costume_clown_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *SANTA -->
+    <model filename="soldier_dragon_blue_santa.xml">
+        <requirement class="carry_item" slot="1" key="costume_santa.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_santa.xml">
+        <requirement class="carry_item" slot="1" key="costume_santa_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *LIZARD -->
+    <model filename="soldier_dragon_blue_lizard.xml">
+        <requirement class="carry_item" slot="1" key="costume_lizard.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_lizard.xml">
+        <requirement class="carry_item" slot="1" key="costume_lizard_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *UNDERWEAR -->
+    <model filename="soldier_dragon_blue_underwear.xml">
+        <requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *BANANA -->
+    <model filename="soldier_dragon_blue_banana.xml">
+        <requirement class="carry_item" slot="1" key="costume_banana.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_banana.xml">
+        <requirement class="carry_item" slot="1" key="costume_banana_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *black ops -->
+    <model filename="soldier_dragon_blue_blackops.xml">
+        <requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_blackops.xml">
+        <requirement class="carry_item" slot="1" key="stealth1_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *Psycho Butcher -->
+    <model filename="soldier_dragon_blue_chainsaw.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_chainsaw.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="costume_butcher_1"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *Exo -->
+    <model filename="soldier_dragon_blue_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo_1"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_exo.xml">
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="carry_item" slot="1" key="vest_exo_2"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>    
+	<!-- *EOD -->
+    <model filename="soldier_dragon_blue_eod.xml">
+        <requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_3"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_4"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_5"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_eod.xml">
+        <requirement class="carry_item" slot="1" key="eod_6"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *T3 -->
+    <model filename="soldier_dragon_blue_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_3"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_4"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_5"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_vest_t3.xml">
+        <requirement class="carry_item" slot="1" key="vest3_6"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <!-- *CAMO VEST -->
+    <model filename="soldier_dragon_blue_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_vest.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_1"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_2"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_3"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+    <model filename="soldier_dragon_blue_camo_vest.xml">
+        <requirement class="carry_item" slot="1" key="camo_4"/>
+        <requirement class="rank" range="0 10000"/>
+        <requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+	<!-- CAMO -->
+    <model filename="soldier_dragon_blue_ghillie.xml">
+        <requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+		<requirement class="weapon" slot="0" key="dragonspit.weapon"/>
+    </model>
+	
 </models>
