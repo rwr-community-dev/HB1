@@ -14,12 +14,13 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox
 * Golden Dragunov SVD //Oche34/KFredfox
+* Gold Ranger skin for all gold primary guns //RubberyChicken (checked with KF, originally was only going to be for SVD, but now extended to AK47 and MP5 as well)
 * Pink Ranger P90 //RubberyChicken 
-* Gold Ranger Riot Shield //RubberyChicken
 * Dragonspit (Blue Ranger) //RubberyChicken
 * Dragondust (Red Ranger) //RubberyChicken
 * M60 Rambo skins //RubberyChicken
-* Dual Desert Eagles (plus Duke Nukem skin) //RubberyChicken
+* Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
+* Chicken outfit //RubberyChicken
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
   - adjust the dog vest
