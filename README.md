@@ -21,6 +21,7 @@
 * M60 Rambo skins //RubberyChicken
 * Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
 * Chicken outfit //RubberyChicken
+* Banner Runner //RubberyChicken/Sir_history (2 skins incoming, squire for zwei + banner, grenadier for musket + banner. Faction variants likely. maybe rank variants)
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
   - adjust the dog vest
