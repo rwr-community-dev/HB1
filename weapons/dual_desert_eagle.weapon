@@ -15,7 +15,7 @@
 	class="0"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
-	projectile_speed="110.0"
+	projectile_speed="115.0"
 	projectiles_per_shot="2"
 	barrel_offset="0.4"
 	stab_enabled="1"
@@ -58,7 +58,7 @@
     <projectiles_per_shot value="2" />
     <projectile file="bullet.projectile">
         <result class="hit"
-		kill_probability="0.9"
+		kill_probability="0.8"
 		kill_decay_start_time="0.34"
 		kill_decay_end_time="0.54" />
     </projectile>
