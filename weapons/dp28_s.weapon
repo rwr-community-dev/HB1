@@ -2,20 +2,21 @@
 <weapon file="base_primary_rare.weapon" key="dp28_s.weapon">
     <tag name="machine gun" />
     <specification 
-  retrigger_time="0.109" 
-  accuracy_factor="0.75" 
-  spread_range="0.12"
-  sustained_fire_grow_step="0.5" 
-  sustained_fire_diminish_rate="0.5" 
+  retrigger_time="0.100" 
+  accuracy_factor="0.78" 
+  spread_range="0.20"
+  sustained_fire_grow_step="0.8" 
+  sustained_fire_diminish_rate="2.4" 
   magazine_size="47" 
   can_shoot_standing="0"
-  can_shoot_crouching="1" 
+  can_shoot_crouching="0" 
   can_shoot_prone="1"
   suppressed="0" 
-  name="dp28 - shield" 
+  name="dp28 shielded" 
   class="0" 
-  projectile_speed="90.0"
-  barrel_offset="0.6" />
+  stance_accuracy_rate="1.0"  
+  projectile_speed="110.0"
+  barrel_offset="0.5" />
 
 	<next_in_chain key="dp28.weapon" share_ammo="1" />
 
@@ -27,7 +28,7 @@
 		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />      
     <animation state_key="running" animation_key="walking" />
 
-    <sound key="fire" fileref="dp28_shot.wav" pitch_variety="0.05" volume="0.22" />
+    <sound key="fire" fileref="dp28_shot.wav" pitch_variety="0.05" volume="1.0" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -36,27 +37,27 @@
 
     <hud_icon filename="hud_dp28_s.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1" />
-    <inventory encumbrance="10.0" price="0.0" />
+    <inventory encumbrance="12.0" price="280.0" />
 	
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="0.58" kill_decay_start_time="0.32" kill_decay_end_time="0.75" />
+        <result class="hit"  kill_probability="0.55" kill_decay_start_time="0.33" kill_decay_end_time="0.64" />
     </projectile>
     
-    <stance state_key="running" accuracy="0.3" />
-    <stance state_key="walking" accuracy="0.675" />
-    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="running" accuracy="0" />
+    <stance state_key="walking" accuracy="0.55" />
+    <stance state_key="crouch_moving" accuracy="0.5" />
     <stance state_key="prone_moving" accuracy="0.3" />
 
-    <stance state_key="standing" accuracy="0.8" />
-    <stance state_key="crouching" accuracy="0.85" />
-    <stance state_key="prone" accuracy="0.94" />
+    <stance state_key="standing" accuracy="0.5" />
+    <stance state_key="crouching" accuracy="0.7" />
+    <stance state_key="prone" accuracy="1.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
 
     <shield offset="-0.7 -0.1 0" extent="0.5 0.8 1.4" /> 
 
-    <modifier class="speed" value="-0.3" />    
+    <modifier class="speed" value="-0.30" />    
 </weapon>

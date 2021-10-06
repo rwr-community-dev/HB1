@@ -1,21 +1,21 @@
-# CB7
+﻿# CB7
 ## Submissions
 * Vice president and Field Marshall skin//KFredfox
 * Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies//Square/KFredfox
-* FD338//Autumnsnail/Oche34
-* A180_smg//in4ss/Oche34
-* M60 Rambo Skins //RubberyChicken
-* Welding Torch //Unit G17/Square/KFredfox
-* Gilboa C (Jungle Style) //daidai2bzhe/KFredfox
-* G3 - Scope //Oche34/KFredfox
-* dp28 //P90 Rush B/KFredfox
-* m14k (EpiPen) //Square/Oche34/KFredfox
-* qbz-95 //Oche34/KFredfox
+* FD338//Autumnsnail/Oche34/MarcusKrug
+* A180_smg//in4ss/Oche34/MarcusKrug
+* Welding Torch //Unit G17/Square/KFredfox/MarcusKrug
+* Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug
+* G3 - Scope //Oche34/KFredfox/MarcusKrug
+* dp28 //P90 Rush B/KFredfox/MarcusKrug
+* m14k (EpiPen) //Square/Oche34/KFredfox/MarcusKrug
+* qbz-95 //Oche34/KFredfox/MarcusKrug
 * Defibrillator //KFredfox
-* Ordnance Shovel //CNmemories/KFredfox
+* Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
 * Golden Dragunov SVD //Oche34/KFredfox
 * Aegis (Gold Riot Shield) //RubberyChicken
+* M60 Rambo Skins //RubberyChicken
 * Dogs! //Kiruex/JackMayol/bang
   - no selfstun
   - adjust the dog vest
@@ -70,3 +70,9 @@
 * Faction Silenced pistols 
   - remove XP requirement. new players should be able to use *something* stealthy on Copehill
 
+MarcusKrug reworks on box pack
+* Made adjustments to textures of A180,DP28,FD338,G3,gilboa,svd,m14k,qbz95,shockpaddle,shovel and torch to mimic style of vanilla
+* Adjustment to DP28,FD338 sounds to make them sounds more comfortable
+* Adjustment to DP28.FD338,G3 weapons to distinguish them from other vanilla weapons
+* Adjustment to FD338 models to make them not so weird
+* New models to AA12frag,AEK919K,AKS74U,ARES shrike,AK47,AK47GL,M16A4GL,M107,desert eagle,desert eagle golden,svd,fal,fal bayonet,honey badger,kriss vector,m60e4,m712,milkor mgl,p416,steyr aug,vss vintorez
