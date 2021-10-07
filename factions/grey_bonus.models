@@ -110,11 +110,33 @@
         <requirement class="rank" range="0 10000"/>
         <requirement class="weapon" slot="0" key="m60e4.weapon"/>
     </model>
-	<!-- *HIGH RANK -->
-    <model filename="soldier_rambo_5stars_grey.xml">
-        <requirement class="rank" range="100 1000"/>
-        <requirement class="weapon" slot="0" key="m60e4.weapon"/>
-    </model>
+	<!-- -------------------------- -->
+	<!-- high rank -->
+	<!-- -------------------------- -->
+	<model filename="soldier_5stars_grey.xml">
+		<requirement class="rank" range="100 200" />
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>
+	<model filename="soldier_5stars_grey_2-3.xml">
+		<requirement class="rank" range="200 400" />
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>	
+	<model filename="soldier_5stars_grey_4.xml">
+		<requirement class="rank" range="400 500" />
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>
+	<model filename="soldier_5stars_grey_5.xml">
+		<requirement class="rank" range="500 600" />
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>
+	<model filename="soldier_fm_grey.xml">
+		<requirement class="rank" range="600 800" />
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>
+	<model filename="soldier_vp_grey.xml">
+		<requirement class="rank" range="800 1000" />
+		<requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>
     <model filename="president_rambo_grey.xml">
         <requirement class="rank" range="1000 10000"/>
         <requirement class="weapon" slot="0" key="m60e4.weapon"/>
@@ -140,4 +162,27 @@
         <requirement class="rank" range="0 10000"/>
         <requirement class="carry_item" slot="1" key="vest_exo_2"/>
         <requirement class="weapon" slot="0" key="m60e4.weapon"/>
+	</model>
+	<!-- ----------------->
+	<!-- Two-handed Sword -->
+	<!-- ----------------->
+	<model filename="soldier_squire_grey.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="1" key="banner.weapon"/>
+		<requirement class="weapon" slot="0" key="zweihander.weapon"/>
+	</model>
+	
+	<!-- ----------------->
+	<!-- Bow -->
+	<!-- ----------------->
+	<model filename="soldier_archer_grey_quiver.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="1" key="banner.weapon"/>
+		<requirement class="weapon" slot="0" key="compound_bow.weapon"/>
+	</model>
+	<model filename="soldier_archer_grey_quiver.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="1" key="saber.weapon"/>
+		<requirement class="weapon" slot="0" key="compound_bow.weapon"/>
+	</model>
 </models>
