@@ -8,7 +8,7 @@
   <weapon key='mossberg.weapon' />
 
   <weapon key='l85a2.weapon' />
-  <weapon key='dual_desert_eagle_gold.weapon' />
+  <weapon key='dual_desert_eagle.weapon' />
   <weapon key='l30p.weapon' />
   <weapon key='m60.weapon' />
 </resources>

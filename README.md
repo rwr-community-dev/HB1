@@ -14,9 +14,12 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
 * Golden Dragunov SVD //Oche34/KFredfox
-* Aegis (Gold Riot Shield) //RubberyChicken
-* M60 Rambo Skins //RubberyChicken
-* Dogs! //Kiruex/JackMayol/bang
+* M60 Rambo skins //RubberyChicken
+* Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
+* Chicken outfit //RubberyChicken
+* Banner Runner //RubberyChicken/Sir_history (1 skins incoming, squire for zwei + banner)
+* Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
+* Dogs! //Kiruex/JackMayol
   - no selfstun
   - adjust the dog vest
   - unwound dog animation very bad
@@ -54,10 +57,6 @@
   - currently, the M711 feels terrible to use. bad range, bullet speed, and scope prevent it from being a useful sniper rifle
   - bad speed prevents it from being a good marksman rifle.  It is outranged by the VSS of all things.
   - these changes aim to give it a useful niche as a fast-moving armor-piercing rifle. 1.2 damage is not reliable AP.
-* VSS
-  - recoil recovery 3 --> 2.8
-  - Currently, the VSS is the best stealth gun, by far. Long range, high rate of fire for a sniper rifle, good damage
-  - Recoil recovery nerfed, because why does a marksman/AR hybrid have the recoil recovery of an SMG?
 * M6 Lynx
   - recoil recovery 0.9 --> 0.95
   - Lynx currently is a worse, but silent, barrett. This is fine, but bland.
@@ -66,9 +65,13 @@
   - fire/reload animation feels bugged, I always try to reload after firing my last shot, and it just doesn't register.
   - Also seems to be bugged when shooting from elevation, shots go very far past the aimed spot.
   - Shooting the Kulakov sounds like someone is eating a potato chip. Not sure if intended or not. <<I recorded it myself at home. Feel free to replace it with a better one --KFredfox
-  - I personally like the sound, but that's because it sounds like a literal potato chip. I just enjoy inflicting that knowledge on people :)
+  - I personally like the sound, but that is because it sounds like a literal potato chip. I just enjoy inflicting that knowledge on people :)
 * Faction Silenced pistols 
   - remove XP requirement. new players should be able to use *something* stealthy on Copehill
+* Stoner LMG
+  - move speed  -7 --> -6
+  - Stoner is supposed to be a mobile LMG, but it slower than the PKM.  Also it isn't a popular gun in general.
+  - Also its stance accuracy penalties are brutal, would recommend slightly buffing stand/crouch/walk
 
 MarcusKrug reworks on box pack
 * Made adjustments to textures of A180,DP28,FD338,G3,gilboa,svd,m14k,qbz95,shockpaddle,shovel and torch to mimic style of vanilla
