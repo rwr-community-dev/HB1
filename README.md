@@ -1,10 +1,10 @@
 ﻿# CB7
 ## Submissions
-* Vice president and Field Marshall skin//KFredfox
+* ✔️Vice president and Field Marshall skin//KFredfox
 * Vampire costume & Frenzy werewolf //Square/KFredfox
-* Pumpkin box loot and Pumpkin candies//Square/KFredfox
-* FD338//Autumnsnail/Oche34/MarcusKrug
-* A180_smg//in4ss/Oche34/MarcusKrug
+* Pumpkin box loot and Pumpkin candies //Square/KFredfox
+* FD338 //Autumnsnail/Oche34/MarcusKrug <!--   <img id=“hud_fd338” src="/textures/hud_fd338.png" style="transform:rotate(90deg);"> -->
+* A180_smg //in4ss/Oche34/MarcusKrug
 * Welding Torch //Unit G17/Square/KFredfox/MarcusKrug
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug
 * G3 - Scope //Oche34/KFredfox/MarcusKrug
@@ -19,7 +19,7 @@
 * Chicken outfit //RubberyChicken
 * Banner Runner //RubberyChicken/Sir_history (1 skins incoming, squire for zwei + banner)
 * Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
-* Dogs! //Kiruex/JackMayol
+* ✔️Dogs! //Kiruex/JackMayol
   - no selfstun
   - adjust the dog vest
   - unwound dog animation very bad
