@@ -1,10 +1,8 @@
 # CB7 Submissions!
 * Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies //Square/KFredfox
-* FD338 //Autumnsnail/Oche34/MarcusKrug
-
-{::nomarkdown}<img id=“hud_fd338” class="rothud" src="/textures/hud_fd338.png">{:/}
-
+* FD338 //Autumnsnail/Oche34/MarcusKrug  \
+  {::nomarkdown}<img id=“hud_fd338” class="rothud" src="https://github.com/rwr-community-dev/CB7/raw/master/textures/hud_fd338.png">{:/}
 * A180_smg //in4ss/Oche34/MarcusKrug
 * Welding Torch //Unit G17/Square/KFredfox/MarcusKrug
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug
