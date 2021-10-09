@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.hudiv {
+    height: 150px;
+    overflow: hidden;
+}
 .rothud {
-    transform: rotate(90deg);
+    transform: translate(120%, -25%) rotate(90deg);
 }
