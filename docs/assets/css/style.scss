@@ -8,6 +8,6 @@
     overflow: hidden;
 }
 .rothud {
-    transform: translate(120%, -25%) rotate(90deg);
-    transform-origin: top right;
+    transform: rotate(90deg) translate(25%,-100%);
+    transform-origin: top left;
 }
