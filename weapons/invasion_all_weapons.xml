@@ -428,7 +428,7 @@
   </weapon>
 
   <weapon file="m60e4.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="1.0" value="1" />
   </weapon>
