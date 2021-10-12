@@ -26,8 +26,7 @@
   <weapon file="aegis.weapon" />
   <weapon file="dog.weapon" />
   <weapon file="dog_heal.weapon" />
-  <weapon file="dual_desert_eagle_gold.weapon" />
-  <weapon file="american180.weapon" />
-  <weapon file="glock18.weapon" />
+  <weapon file="dual_desert_eagle.weapon" />
+  <weapon file='banner.weapon' />
   <weapon file="surefire_mgx.weapon" />
 </weapons>
