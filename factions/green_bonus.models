@@ -172,6 +172,12 @@
 		<requirement class="weapon" slot="1" key="banner.weapon"/>
 		<requirement class="weapon" slot="0" key="zweihander.weapon"/>
 	</model>
+	
+	<model filename="soldier_squire_green.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="1" key="saber.weapon"/>
+		<requirement class="weapon" slot="0" key="zweihander.weapon"/>
+	</model>
 	<!-- ----------------->
 	<!-- Bow -->
 	<!-- ----------------->
