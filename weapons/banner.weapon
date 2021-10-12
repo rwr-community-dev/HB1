@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="zweihander.weapon" time_to_live_out_in_the_open="90.0"  player_death_drop_owner_lock_time="45.0">
+<weapon file="base_primary_rare.weapon" key="banner.weapon" time_to_live_out_in_the_open="90.0"  player_death_drop_owner_lock_time="45.0">
     <tag name="cqb" />
 
     <specification
@@ -7,7 +7,7 @@
     can_shoot_prone="0" 
     can_shoot_crouching="0" 
     carry_in_two_hands="1" 
-    name="Running with Banner" 
+    name="War Banner" 
     class="5" 
     character_state="death" 
     consume="0" 

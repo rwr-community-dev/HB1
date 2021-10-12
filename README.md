@@ -14,10 +14,11 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
 * Golden Dragunov SVD //Oche34/KFredfox
-* M60 Rambo skins //RubberyChicken
+* M60 Rambo skins //RubberyChicken (winter skins made, but unclear how to add them)
 * Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
 * Chicken outfit //RubberyChicken
-* Banner Runner //RubberyChicken/Sir_history (1 skins incoming, squire for zwei + banner)
+* War Banner //RubberyChicken/Sir_history 
+* Squire Skin //RubberyChicken/Sir_history (Zweihander + cavalry saber/banner)
 * Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
 * ✔️Dogs! //Kiruex/JackMayol
   - no selfstun
@@ -26,6 +27,10 @@
   - adjust the spawn score for inva
 * Glock18 //LordNoodle
 * Surefire MGX //LordNoodle
+
+# Removed from consideration
+* Aegis (broken design, not salvagable)
+* Pink P90 / Dragonspit / Dragondust (Power Ranger themed items vetoed by Jack)
 
 # Rebalancing proposals:
 * Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4, so we are only boosting by a third)
