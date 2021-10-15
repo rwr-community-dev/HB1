@@ -28,6 +28,7 @@
   <weapon key="surefire_mgx.weapon" />
   <weapon key='mk14_ebr.weapon' />
   <weapon key='mk14_ebr_supp.weapon' />
+  <weapon key="three_nation_army_banner.weapon" />
   
   <carry_item key="costume_chicken.carry_item" />
 </resources>
