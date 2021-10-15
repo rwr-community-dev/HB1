@@ -26,8 +26,8 @@
   <weapon key='banner.weapon' />
   <weapon key='glock18.weapon' />
   <weapon key="surefire_mgx.weapon" />
-  <weapon file="mk14_ebr.weapon" />
-  <weapon file="mk14_ebr_supp.weapon" />
+  <weapon file='mk14_ebr.weapon' />
+  <weapon file='mk14_ebr_supp.weapon' />
   
   <carry_item key="costume_chicken.carry_item" />
 </resources>
