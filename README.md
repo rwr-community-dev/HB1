@@ -14,7 +14,7 @@
 * Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
 * Golden Dragunov SVD //Oche34/KFredfox
-* M60 Rambo skins //RubberyChicken (winter skins made, but unclear how to add them)
+* M60 Rambo skins //RubberyChicken (all weapons with skins can be extended to new skins upon desire)
 * Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
 * Chicken outfit //RubberyChicken
 * War Banner //RubberyChicken/Sir_history 
