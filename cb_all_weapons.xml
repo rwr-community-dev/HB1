@@ -29,4 +29,6 @@
   <weapon file="dual_desert_eagle.weapon" />
   <weapon file='banner.weapon' />
   <weapon file="surefire_mgx.weapon" />
+  <weapon file="mk14_ebr.weapon" />
+  <weapon file="mk14_ebr_supp.weapon" />
 </weapons>

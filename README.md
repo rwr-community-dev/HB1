@@ -27,7 +27,7 @@
   - adjust the spawn score for inva
 * Glock18 //LordNoodle
 * Surefire MGX //LordNoodle
-
+* Mk14 EBR w/ suppressed option //MoistGoat
 # Removed from consideration
 * Aegis (broken design, not salvagable)
 * Pink P90 / Dragonspit / Dragondust (Power Ranger themed items vetoed by Jack)
@@ -66,6 +66,7 @@
   - recoil recovery 0.9 --> 0.95
   - Lynx currently is a worse, but silent, barrett. This is fine, but bland.
   - Given less damage and slower move speed, seems reasonable that it would be easier to get a second accurate shot.
+  - Since it has slow reload and easy to get rushed, perhaps changing to 10-round magazine would make more people use it
 * Kulakov
   - fire/reload animation feels bugged, I always try to reload after firing my last shot, and it just doesn't register.
   - Also seems to be bugged when shooting from elevation, shots go very far past the aimed spot.
