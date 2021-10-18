@@ -28,8 +28,10 @@
   <weapon file="dog_heal.weapon" />
   <weapon file="dual_desert_eagle.weapon" />
   <weapon file='banner.weapon' />
+  <weapon file="three_nation_army_banner.weapon" />
+  <weapon file='smile_banner.weapon' />
+  <weapon file='jack_o_banner.weapon' />
   <weapon file="surefire_mgx.weapon" />
   <weapon file="mk14_ebr.weapon" />
   <weapon file="mk14_ebr_supp.weapon" />
-  <weapon file="three_nation_army_banner.weapon" />
 </weapons>
