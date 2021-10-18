@@ -19,6 +19,8 @@
 * Chicken outfit //RubberyChicken
 * War Banner //RubberyChicken/Sir_history 
 * Three Nation Army Banner //RubberyChicken
+* Jack O'Banner //RubberyChicken
+* Smiley Banner //RubberyChicken
 * Squire Skin //RubberyChicken/Sir_history (Zweihander + cavalry saber/banner)
 * Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
 * ✔️Dogs! //Kiruex/JackMayol
