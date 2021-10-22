@@ -18,9 +18,10 @@
 * Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
 * Chicken outfit //RubberyChicken
 * War Banner //RubberyChicken/KFredfox/Sir_history 
-* I love RWR banner //RubberyChicken/KFredfox/JackMayol
-* Jack O'Banner //RubberyChicken/KFredfox
-* Smiley Banner //RubberyChicken/KFredfox
+* I love RWR banner //RubberyChicken/KFredfox/Square/JackMayol (in progress)
+* Pink Panda banner //RubberyChicken/KFredfox/Square/JackMayol (in progress)
+* Jack O'Banner //RubberyChicken/Square/KFredfox
+* Smiley Banner //RubberyChicken/Square/KFredfox
 * Squire Skin //RubberyChicken/Sir_history (Zweihander + cavalry saber/banner)
 * Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
 * ✔️Dogs! //Kiruex/JackMayol
