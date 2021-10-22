@@ -17,10 +17,10 @@
 * M60 Rambo skins //RubberyChicken (all weapons with skins can be extended to new skins upon desire)
 * Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
 * Chicken outfit //RubberyChicken
-* War Banner //RubberyChicken/Sir_history 
-* Three Nation Army Banner //RubberyChicken
-* Jack O'Banner //RubberyChicken
-* Smiley Banner //RubberyChicken
+* War Banner //RubberyChicken/KFredfox/Sir_history 
+* I love RWR banner //RubberyChicken/KFredfox/JackMayol
+* Jack O'Banner //RubberyChicken/KFredfox
+* Smiley Banner //RubberyChicken/KFredfox
 * Squire Skin //RubberyChicken/Sir_history (Zweihander + cavalry saber/banner)
 * Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
 * ✔️Dogs! //Kiruex/JackMayol
@@ -31,9 +31,11 @@
 * Glock18 //LordNoodle
 * Surefire MGX //LordNoodle
 * Mk14 EBR w/ suppressed option //MoistGoat
+* 
 # Removed from consideration
 * Aegis (broken design, not salvagable)
 * Pink P90 / Dragonspit / Dragondust (Power Ranger themed items vetoed by Jack)
+* Three Nation Army Banner //RubberyChicken (declared not goofy enough by Jack)
 
 # Rebalancing proposals:
 * Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4, so we are only boosting by a third)
