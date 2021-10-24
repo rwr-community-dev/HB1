@@ -8,6 +8,12 @@
   <call key='a10_gun_run.call' />
   <call key='gunship_run.call' />
 
+  <weapon key='smaw_thermobaric.weapon' />
+  <weapon key='stoner62.weapon' />
+  <weapon key='pecheneg_bullpup.weapon' />
+  <weapon key='jackhammer.weapon' />
+  <weapon key='microgun.weapon' />
+
   <weapon key='shock_paddle.weapon' />
   <weapon key='g3_3x.weapon' />
   <weapon key='g3_1x.weapon' />
@@ -31,7 +37,7 @@
   <weapon key="surefire_mgx.weapon" />
   <weapon key='mk14_ebr.weapon' />
   <weapon key='mk14_ebr_supp.weapon' />
-  <weapon key="three_nation_army_banner.weapon" />
+
   
   <carry_item key="costume_chicken.carry_item" />
 </resources>

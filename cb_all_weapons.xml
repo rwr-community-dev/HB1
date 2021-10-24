@@ -34,4 +34,5 @@
   <weapon file="surefire_mgx.weapon" />
   <weapon file="mk14_ebr.weapon" />
   <weapon file="mk14_ebr_supp.weapon" />
+  <weapon file="smaw_thermobaric.weapon" />
 </weapons>

@@ -276,7 +276,7 @@
 	</weapon>
 
   <weapon file="microgun.weapon">
-    <commonness value="0.00004" in_stock="0" />
+    <commonness value="0.00004" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
@@ -398,7 +398,7 @@
   </weapon>
 
   <weapon file="pecheneg_bullpup.weapon">
-    <commonness value="0.00005" in_stock="0" />
+    <commonness value="0.00005" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
@@ -435,7 +435,7 @@
 
 
   <weapon file="jackhammer.weapon">
-    <commonness value="0.0001" in_stock="0" />
+    <commonness value="0.0001" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.6" value="1" />
   </weapon>
@@ -472,7 +472,7 @@
   </weapon>
 
 	<weapon file="stoner62.weapon">
-    <commonness value="0.00002" in_stock="0" />
+    <commonness value="0.00002" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
@@ -740,7 +740,7 @@
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
   <weapon file="ares_shrike_s.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0" in_stock="1" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>

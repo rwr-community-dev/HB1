@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="ares_shrike.weapon" key="ares_shrike_s.weapon">
+    <specification class="0" name="ARES Shrike, Full Auto" can_shoot_standing="1" retrigger_time="0.135" />
+	<next_in_chain key="ares_shrike.weapon" share_ammo="1" />
+	    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+
+</weapon>

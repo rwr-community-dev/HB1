@@ -84,6 +84,19 @@
   - move speed  -7 --> -6
   - Stoner is supposed to be a mobile LMG, but it slower than the PKM.  Also it isn't a popular gun in general.
   - Also its stance accuracy penalties are brutal, would recommend slightly buffing stand/crouch/walk
+* Ares Shrike (S) [Darky Reworks]
+  - faster burst and alternate fire mode is a slow firing full auto with lower kill chance
+* Jackhammer [Darky Reworks]
+  - faster bullets with a bit more range and has some armor penetration thanks to `kill_probability_offset_on_successful_hit`
+* Pecheneg Bullpup [Darky Reworks]
+  - reversion to its original stats due to power creep
+  - needs to be comparable with/better than vanilla MG
+* Smaw / Smaw Thermobaric [Darky Reworks]
+  - anti-infantry rocket! good for enemy elites :D
+* Stoner62 [Darky Reworks]
+  - more accurate when firing from cover or prone
+  - accurate for a burst because it actually has more than 1 accuracy (unique in that regard!)
+
 
 MarcusKrug reworks on box pack
 * Made adjustments to textures of A180,DP28,FD338,G3,gilboa,svd,m14k,qbz95,shockpaddle,shovel and torch to mimic style of vanilla
