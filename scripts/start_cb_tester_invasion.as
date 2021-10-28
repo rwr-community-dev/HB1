@@ -1,6 +1,6 @@
 // declare include paths
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/CB7/scripts"
+#include "path://media/packages/HB1/scripts"
 
 #include "gamemode_invasion.as"
 // HACK: [CB7] include trackers here for late addition to a derived GameModeInvasion metagame
@@ -42,7 +42,7 @@ void main(dictionary@ inputData) {
     settings.m_testingToolsEnabled = true;
 
 
-    array<string> overlays = { "media/packages/invasion", "media/packages/CB7" };
+    array<string> overlays = { "media/packages/invasion", "media/packages/HB1" };
     settings.m_overlayPaths = overlays;
 
     // HACK: [CB7] don't automatically start a server for CB7 testing
