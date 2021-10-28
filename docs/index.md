@@ -1,4 +1,4 @@
-# CB7 Submissions!
+# Halloween Box (1) Submissions!
 * Vampire costume & Frenzy werewolf //Square/KFredfox
 * Pumpkin box loot and Pumpkin candies //Square/KFredfox
 * FD338 //Autumnsnail/Oche34/MarcusKrug{::nomarkdown}<div class="hudiv"><img id=“hud_fd338” class="rothud" src="https://github.com/rwr-community-dev/CB7/raw/master/textures/hud_fd338.png"></div>{:/}
